@@ -268,7 +268,7 @@ function buildFicha(ficha, index, fichaTrans) {
                 ${vocabularioHtml}
                 <div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-700/50">
                     <p class="text-sm text-indigo-500 dark:text-indigo-400 font-semibold">
-                        <i class="fas fa-lightbulb mr-1" aria-hidden="true"></i>
+                        <i class="fas fa-lightbulb text-amber-500 mr-1" aria-hidden="true"></i>
                         ${renderTexto(ficha.consejo, fichaTrans ? fichaTrans.consejo : null, true)}
                     </p>
                 </div>
