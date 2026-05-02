@@ -288,7 +288,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    animation: pulse-hint 2.5s ease-in-out 3;
+    animation: pulse-hint 3s ease-in-out infinite;
 }
 
 .touch-hint.active {

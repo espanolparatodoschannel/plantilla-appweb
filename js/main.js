@@ -368,7 +368,7 @@ function updateTouchHint() {
     };
     
     rotateHint(); // Ejecutar inmediatamente
-    hintInterval = setInterval(rotateHint, 2500); // Cambiar cada 2.5 segundos
+    hintInterval = setInterval(rotateHint, 3000); // Cambiar cada 3 segundos
 }
 
 // =============================================
