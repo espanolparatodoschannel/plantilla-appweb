@@ -4,91 +4,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cargando...</title>
-    <meta name="description" content="Guía interactiva de español para el canal Español Para Todos.">
+
+    <!-- SEO: Título estático descriptivo (no depende de JS) -->
+    <title>Guía A1: Describir Personas en Español | Español Para Todos</title>
+    <meta name="description" content="Fichas interactivas para aprender español A1: describe personas, usa artículos y adjetivos. Ideal para principiantes.">
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Guía A1: Describir Personas | Español Para Todos">
+    <meta property="og:description" content="Fichas interactivas para aprender a describir personas en español A1.">
+    <meta property="og:image" content="assets/img/Logo Español para todos_transp.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Guía A1: Describir Personas | Español Para Todos">
+    <meta name="twitter:description" content="Fichas interactivas para aprender español A1.">
+
+    <!-- Schema.org: Datos estructurados para Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Guía A1: Describir Personas en Español",
+      "description": "Fichas interactivas para aprender a describir personas en español nivel A1.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Español Para Todos",
+        "sameAs": "https://www.youtube.com/@Espanolparatodos-channel"
+      },
+      "educationalLevel": "A1",
+      "inLanguage": "es"
+    }
+    </script>
+
+    <!-- Google Fonts: preconnect para carga eficiente (sin @import bloqueante) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkPage: '#0f172a',
+                        darkCard: '#1e293b'
+                    }
+                }
+            }
+        }
+    </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="text-slate-800">
+<body class="text-slate-800 dark:text-slate-200 bg-[var(--bg-page)] dark:bg-darkPage transition-colors duration-300">
 
     <!-- Header / Hero -->
-    <header class="header-mesh text-white pt-12 pb-20 md:py-24 px-4 shadow-2xl relative overflow-hidden">
-        <!-- Fondo de cuadrícula decorativo -->
-        <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1" />
-                    </pattern>
-                </defs>
-                <rect width="100%" height="100%" fill="url(#grid)" />
-            </svg>
-        </div>
+    <header class="header-mesh text-white pt-4 pb-8 md:pt-6 md:pb-12 px-4 shadow-2xl relative overflow-hidden">
 
-        <div
-            class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between relative z-10 text-center md:text-left">
-            <div class="md:w-3/5 mb-10 md:mb-0">
-                <!-- Logo del canal con enlace -->
-                <a href="https://www.youtube.com/@Espanolparatodos-channel" target="_blank" class="inline-block">
-                    <img src="Logo Español para todos_transp.png" alt="Logo Español Para Todos"
-                        class="h-20 md:h-24 mx-auto md:mx-0 mb-6 bg-white rounded-full p-1.5 shadow-lg transition-transform hover:scale-105">
-                </a>
 
-                <h1 id="hero-title" class="text-4xl sm:text-5xl md:text-7xl font-black mb-4 leading-tight"></h1>
 
-                <!-- Enlace al video -->
-                <a id="video-link" href="#" target="_blank"
-                    class="inline-block bg-white/20 hover:bg-white/30 backdrop-blur-md px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest mb-8 transition-all border border-white/20 group">
-                    <span id="video-label">Cargando...</span>
-                    <i class="fas fa-external-link-alt ml-2 opacity-50 group-hover:opacity-100"></i>
-                </a>
+        <div class="max-w-6xl mx-auto relative z-10 flex flex-col items-center">
+            <!-- Barra superior: Logo e Idiomas (Navegación Clásica) -->
+            <div class="w-full flex flex-wrap items-center justify-between gap-y-5 gap-x-2 mb-6 md:mb-8">
+                
+                <!-- Logo (Izquierda en móvil y escritorio) -->
+                <img src="assets/img/Logo Español para todos_transp.png" alt="Español Para Todos — Logo del canal"
+                    class="h-20 md:h-28 order-1 md:order-1 brightness-110 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]">
 
-                <p
-                    class="text-lg md:text-xl opacity-90 font-light max-w-2xl mx-auto md:mx-0 leading-relaxed flex flex-col md:flex-row items-center gap-3">
-                    <span id="objetivo"></span>
-                </p>
+                <!-- Agrupador derecha en móvil (Badge + Luna) -->
+                <div class="flex items-center gap-2 order-2 md:order-3">
+                    <div id="nivel-badge" class="h-10 md:h-12 bg-white/20 backdrop-blur-md border border-white/30 text-white text-xs md:text-sm font-bold uppercase tracking-widest px-3 md:px-5 rounded-xl flex items-center justify-center shadow-lg">
+                        Nivel A1
+                    </div>
+                    <!-- Toggle Theme -->
+                    <button id="themeToggleBtn" class="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center transition-all hover:bg-white/30 shadow-lg text-white" aria-label="Cambiar tema oscuro/claro">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                </div>
+
+                <!-- Selector de Idiomas (Fila entera en móvil, medio/derecha en escritorio) -->
+                <nav aria-label="Idioma de la interfaz" class="w-full md:w-auto flex justify-center order-3 md:order-2 md:ml-auto md:mr-4">
+                    <div class="h-auto bg-white/20 backdrop-blur-md border border-white/30 rounded-xl md:rounded-2xl p-1 flex items-center gap-1 shadow-lg"
+                         role="group" aria-label="Selecciona tu idioma">
+                        <button class="lang-btn active w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl flex items-center justify-center transition-all hover:bg-white/30"
+                                data-lang="es" aria-label="Español" aria-pressed="true">
+                            <img src="https://flagcdn.com/w40/es.png" alt="" aria-hidden="true"
+                                 class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
+                        </button>
+                        <button class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl flex items-center justify-center transition-all hover:bg-white/30"
+                                data-lang="en" aria-label="English" aria-pressed="false">
+                            <img src="https://flagcdn.com/w40/gb.png" alt="" aria-hidden="true"
+                                 class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
+                        </button>
+                        <button class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl flex items-center justify-center transition-all hover:bg-white/30"
+                                data-lang="fr" aria-label="Français" aria-pressed="false">
+                            <img src="https://flagcdn.com/w40/fr.png" alt="" aria-hidden="true"
+                                 class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
+                        </button>
+                        <button class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl flex items-center justify-center transition-all hover:bg-white/30"
+                                data-lang="pt" aria-label="Português" aria-pressed="false">
+                            <img src="https://flagcdn.com/w40/br.png" alt="" aria-hidden="true"
+                                 class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
+                        </button>
+                        <button class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl flex items-center justify-center transition-all hover:bg-white/30"
+                                data-lang="de" aria-label="Deutsch" aria-pressed="false">
+                            <img src="https://flagcdn.com/w40/de.png" alt="" aria-hidden="true"
+                                 class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
+                        </button>
+                    </div>
+                </nav>
+
             </div>
 
-            <div class="md:w-2/5 flex justify-center hero-img-container">
-                <img id="hero-img" src="" alt="Ilustración"
-                    class="max-w-[280px] sm:max-w-xs md:max-w-full h-auto drop-shadow-2xl rounded-3xl">
+            <!-- Contenido Central -->
+            <div class="text-center max-w-4xl">
+                <h1 id="hero-title" class="text-4xl sm:text-5xl md:text-6xl font-black mb-8 leading-tight"></h1>
+                <p class="text-lg md:text-xl opacity-90 max-w-3xl mx-auto leading-relaxed flex flex-col md:flex-row items-center justify-center gap-3">
+                    <span id="objetivo"></span>
+                </p>
             </div>
         </div>
     </header>
 
     <!-- Grid de fichas (generado por main.js) -->
     <main class="max-w-7xl mx-auto px-4 py-12 md:py-20">
+
+        <!-- Pista táctil: solo visible en móvil cuando hay traducción activa -->
+        <p id="touch-hint" class="touch-hint" aria-live="polite"></p>
+
+        <!-- Barra de progreso de fichas -->
+        <div id="progress-wrap" class="hidden mb-6">
+            <p id="progress-label" class="progress-label"></p>
+            <div class="progress-bar-wrap"
+                 role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-bar-aria">
+                <div id="progress-fill" class="progress-bar-fill"></div>
+            </div>
+        </div>
+
         <div id="fichasGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 items-stretch">
             <!-- Las fichas se generan automáticamente desde contenido.json -->
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-8 mt-8">
-        <div class="max-w-4xl mx-auto px-6 flex flex-col items-center text-center gap-6">
-            <p class="text-slate-400 text-sm max-w-sm leading-relaxed">
-                Material pedagógico para el nivel <strong class="text-white">A1</strong>.<br>
-                Aprende español de forma natural y progresiva.
-            </p>
-            <a href="https://www.youtube.com/@Espanolparatodos-channel" target="_blank"
-                class="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-2xl font-bold text-sm transition-all hover:scale-105 shadow-lg">
-                <i class="fab fa-youtube text-xl"></i>
-                Visita nuestro canal
-            </a>
-            <div class="w-full border-t border-white/10 pt-6">
-                <p class="text-xs opacity-40">&copy; 2025 Español Para Todos &mdash; Guía de Nivel A1</p>
+    <footer class="bg-slate-900 text-slate-400 pt-10 pb-8 mt-12">
+        <div class="max-w-4xl mx-auto px-6 flex flex-col items-center text-center gap-4">
+            <div class="mb-2">
+                <!-- Sincronizado con meta.titulo_pagina via JS -->
+                <p id="footer-titulo" class="text-white font-bold text-lg leading-tight"></p>
+                <p class="text-slate-400 text-base mt-1">
+                    Aprende español de forma natural y progresiva.
+                </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3 items-center justify-center w-full">
+                <!-- Enlace al video: rel="noopener" por seguridad -->
+                <a id="video-link" href="#" target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center gap-3 bg-white/5 hover:bg-white/10 backdrop-blur-md px-5 h-11 rounded-xl font-bold text-xs transition-all border border-white/10 group w-full sm:w-auto">
+                    <span id="video-label" class="text-white">Cargando...</span>
+                    <i class="fas fa-play-circle text-white opacity-70 group-hover:opacity-100 text-lg" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@Espanolparatodos-channel" target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center gap-3 bg-red-600/90 hover:bg-red-700 text-white px-5 h-11 rounded-xl font-bold text-xs transition-all shadow-lg w-full sm:w-auto group">
+                    <i class="fab fa-youtube text-xl opacity-80 group-hover:opacity-100 transition-opacity" aria-hidden="true"></i>
+                    Visita nuestro canal
+                </a>
+            </div>
+
+            <div class="w-full border-t border-white/5 pt-4 mt-2">
+                <p class="text-xs" style="opacity:0.5;">&copy; 2025 Español Para Todos Channel</p>
             </div>
         </div>
     </footer>
 
     <!-- Botón Scroll to Top -->
     <button id="scrollTopBtn" aria-label="Volver arriba">
-        <i class="fas fa-arrow-up"></i>
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 
-    <script src="main.js"></script>
+    <!-- Toast de notificaciones (reemplaza alert()) -->
+    <div id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

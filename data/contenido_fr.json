@@ -1,0 +1,220 @@
+{
+    "meta": {
+        "titulo_pagina": "Guide A1 : Décrire les personnes en espagnol",
+        "titulo_hero": "Apprends à décrire les personnes",
+        "objetivo": "<strong class=\"font-black text-white\">Objectif :</strong> Identifie les traits physiques, utilise les adjectifs et confirme des informations.",
+        "video_label": "Vidéo : Le rendez-vous à l'aveugle",
+        "video_url": "https://espanolparatodoschannel.github.io/ni.2_El_Mercado_de_los_Recuerdos_Olvidados/",
+        "ilustracion": "ele_a1_people_illustration_1777403668192.png"
+    },
+    "fichas": [
+        {
+            "id": 1,
+            "categoria": "Fonctions",
+            "tema": "S'adresser à quelqu'un",
+            "explicacion": "Ces expressions servent à attirer l'attention d'une autre personne en utilisant son prénom de manière très naturelle.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Salut, <strong>Elena</strong> !",
+                    "Excuse-moi, <strong>Juan</strong>, tu as l'heure ?",
+                    "Écoute, <strong>Pablo</strong>, regarde ça.",
+                    "Bonjour, <strong>Madame García</strong>."
+                ]
+            },
+            "consejo": "Utilise le prénom de la personne pour être plus aimable."
+        },
+        {
+            "id": 2,
+            "categoria": "Fonctions",
+            "tema": "Présenter quelqu'un",
+            "explicacion": "Utilise ces phrases simples pour introduire une nouvelle personne à tes amis ou à tes collègues de travail.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Je te <strong>présente</strong> mon amie Lucía.",
+                    "C'<strong>est</strong> mon frère Carlos.",
+                    "Je te <strong>présente</strong> mon professeur.",
+                    "C'<strong>est</strong> ma collègue María."
+                ]
+            },
+            "consejo": "Utilise \"te presento\" dans des situations avec des amis et la famille."
+        },
+        {
+            "id": 3,
+            "categoria": "Fonctions",
+            "tema": "Répondre à une présentation",
+            "explicacion": "Ce sont des mots de courtoisie très importants que tu dois dire immédiatement après avoir rencontré une personne pour la première fois.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Enchanté !",
+                    "Ravi de te <strong>rencontrer</strong>.",
+                    "C'est un <strong>plaisir</strong>.",
+                    "De même, merci <strong>beaucoup</strong>."
+                ]
+            },
+            "consejo": "“Encantado” est pour les hommes et “Encantada” pour les femmes."
+        },
+        {
+            "id": 4,
+            "categoria": "Grammaire",
+            "tema": "L'article défini",
+            "explicacion": "Nous utilisons ces petits mots devant les noms pour parler de choses ou de personnes que nous connaissons déjà très bien.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "<strong>El</strong> pelo de Lucía est long.",
+                    "<strong>La</strong> casa de mon ami est grande.",
+                    "<strong>Los</strong> libros sont sur la table.",
+                    "<strong>Las</strong> chicas sont très sympathiques."
+                ]
+            },
+            "consejo": "L'article doit être identique au nom en genre et en nombre."
+        },
+        {
+            "id": 5,
+            "categoria": "Grammaire",
+            "tema": "L'article indéfini",
+            "explicacion": "Ces mots servent à présenter une nouvelle information ou à parler d'une chose parmi beaucoup d'autres de façon générale.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "C'est <strong>un</strong> garçon très haut.",
+                    "Elle a <strong>una</strong> amie espagnole.",
+                    "J'ai <strong>unos</strong> livres chez moi.",
+                    "Il y a <strong>unas</strong> photos sur la table."
+                ]
+            },
+            "consejo": "Utilise \"un\" pour le masculin et \"una\" pour le féminin singulier."
+        },
+        {
+            "id": 6,
+            "categoria": "Grammaire",
+            "tema": "L'accord",
+            "explicacion": "En espagnol, le genre et le nombre des mots doivent toujours être identiques au sein d'une même phrase.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Elle est <strong>morena</strong>.",
+                    "Ils sont <strong>altos</strong>.",
+                    "Les maisons sont <strong>blancas</strong>.",
+                    "Le garçon est <strong>simpático</strong>."
+                ]
+            },
+            "consejo": "Si le nom est féminin, l'adjectif se termine aussi par -a."
+        },
+        {
+            "id": 7,
+            "categoria": "Notions générales",
+            "tema": "L'existence",
+            "explicacion": "Nous utilisons cette forme verbale pour indiquer qu'un objet ou une personne est présent dans un endroit précis actuellement.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Ici <strong>il y a</strong> une photo de mon ami.",
+                    "Dans ma classe <strong>il y a</strong> dix élèves.",
+                    "Est-ce qu'<strong>il y a</strong> des toilettes par ici ?",
+                    "Sur la table <strong>il y a</strong> un stylo."
+                ]
+            },
+            "consejo": "Le mot \"hay\" ne change jamais, il s'écrit toujours de la même façon."
+        },
+        {
+            "id": 8,
+            "categoria": "Notions spécifiques",
+            "tema": "Nationalité",
+            "explicacion": "Utilise ces mots après le verbe être pour expliquer de quel pays ou de quel endroit du monde tu viens.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Il est <strong>espagnol</strong>.",
+                    "Nous sommes <strong>mexicains</strong>.",
+                    "Elle est <strong>française</strong>.",
+                    "Je suis <strong>italien</strong>."
+                ]
+            },
+            "consejo": "Les nationalités en espagnol s'écrivent avec une lettre minuscule."
+        },
+        {
+            "id": 9,
+            "categoria": "Prononciation et prosodie",
+            "tema": "Segmentation",
+            "explicacion": "C'est essentiel de séparer les groupes de mots par de petites pauses pour que les autres puissent mieux comprendre ton message.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Non, Elena. <strong>[pause]</strong> Elle est de taille moyenne.",
+                    "Oui, <strong>[pause]</strong> je viens d'Espagne.",
+                    "Salut, <strong>[pause]</strong> je m'appelle Pedro.",
+                    "Mon ami est grand, <strong>[pause]</strong> blond et sympathique."
+                ]
+            },
+            "consejo": "Respire brièvement à chaque virgule pour paraître plus naturel."
+        },
+        {
+            "id": 10,
+            "categoria": "Prononciation et prosodie",
+            "tema": "Intonation énonciative",
+            "explicacion": "Quand tu affirmes quelque chose avec assurance, le ton de ta voix doit descendre un peu en arrivant à la fin de la phrase.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "J'ai l'<strong>information</strong>.",
+                    "Ma sœur est <strong>médecin</strong>.",
+                    "J'habite à <strong>Madrid</strong>.",
+                    "Le livre est <strong>bleu</strong>."
+                ]
+            },
+            "consejo": "Baisse le ton à la fin pour indiquer que tu as fini de parler."
+        },
+        {
+            "id": 11,
+            "categoria": "Orthographe",
+            "tema": "Le point",
+            "explicacion": "Ce signe graphique est nécessaire pour séparer les phrases et marquer la fin d'une idée complète dans un texte.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "C'est Lucía<strong>.</strong>",
+                    "Elle vient de Madrid<strong>.</strong>",
+                    "Mon chat est noir<strong>.</strong> Je suis grand.",
+                    "Aujourd'hui, c'est lundi<strong>.</strong>"
+                ]
+            },
+            "consejo": "N'oublie pas de toujours mettre une majuscule après un point."
+        },
+        {
+            "id": 12,
+            "categoria": "Tactiques et stratégies pragmatiques",
+            "tema": "Atténuation",
+            "explicacion": "Nous utilisons des formes douces et des descriptions indirectes pour éviter d'être trop directs ou de paraître un peu impolis en parlant avec les autres.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Elle est de <strong>taille moyenne</strong>.",
+                    "L'examen est <strong>un peu</strong> difficile.",
+                    "Ce n'est pas très <strong>cher</strong>.",
+                    "Juan est <strong>un peu</strong> timide."
+                ]
+            },
+            "consejo": "Utilise \"un poco\" pour adoucir les adjectifs qui semblent négatifs."
+        },
+        {
+            "id": 13,
+            "categoria": "Tactiques et stratégies pragmatiques",
+            "tema": "Personnel",
+            "explicacion": "Pour créer une connexion émotionnelle, nous devons centrer notre communication sur les personnes et sur leurs relations humaines les plus proches.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Ils sont de très <strong>bons amis</strong>.",
+                    "<strong>Ma famille</strong> habite à Valence.",
+                    "<strong>Tes collègues</strong> sont très aimables.",
+                    "<strong>Nous</strong> sommes très heureux."
+                ]
+            },
+            "consejo": "Mentionner les personnes aide à avoir des conversations plus intéressantes."
+        }
+    ]
+}

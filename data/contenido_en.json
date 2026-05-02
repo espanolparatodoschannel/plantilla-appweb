@@ -1,0 +1,220 @@
+{
+    "meta": {
+        "titulo_pagina": "A1 Guide: Describing People in Spanish",
+        "titulo_hero": "Learn to describe people",
+        "objetivo": "<strong class=\"font-black text-white\">Objective:</strong> Identify physical traits, use adjectives, and confirm information.",
+        "video_label": "Video: The Blind Date",
+        "video_url": "https://espanolparatodoschannel.github.io/ni.2_El_Mercado_de_los_Recuerdos_Olvidados/",
+        "ilustracion": "ele_a1_people_illustration_1777403668192.png"
+    },
+    "fichas": [
+        {
+            "id": 1,
+            "categoria": "Functions",
+            "tema": "Addressing someone",
+            "explicacion": "These expressions help you get someone's attention using their name in a very natural way.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Hi, <strong>Elena</strong>!",
+                    "Excuse me, <strong>Juan</strong>, do you have the time?",
+                    "Listen, <strong>Pablo</strong>, look at this.",
+                    "Good morning, <strong>Mrs. García</strong>."
+                ]
+            },
+            "consejo": "Use the person's name to be more polite."
+        },
+        {
+            "id": 2,
+            "categoria": "Functions",
+            "tema": "Introducing someone",
+            "explicacion": "Use these simple phrases to introduce a new person to your friends or coworkers.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Let me <strong>introduce</strong> you to my friend Lucía.",
+                    "This <strong>is</strong> my brother Carlos.",
+                    "Let me <strong>introduce</strong> you to my teacher.",
+                    "This <strong>is</strong> my coworker María."
+                ]
+            },
+            "consejo": "Use \"te presento\" in situations with friends and family."
+        },
+        {
+            "id": 3,
+            "categoria": "Functions",
+            "tema": "Responding to an introduction",
+            "explicacion": "These are very important polite words you should say right after meeting someone for the first time.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "Nice to <strong>meet</strong> you!",
+                    "<strong>Pleased</strong> to meet you.",
+                    "It's a <strong>pleasure</strong>.",
+                    "Same here, <strong>thanks</strong> a lot."
+                ]
+            },
+            "consejo": "“Encantado” is for men and “Encantada” for women."
+        },
+        {
+            "id": 4,
+            "categoria": "Grammar",
+            "tema": "The definite article",
+            "explicacion": "We use these small words before nouns to talk about things or people we already know very well.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "<strong>The</strong> hair on Lucía is long.",
+                    "<strong>The</strong> house of my friend is big.",
+                    "<strong>The</strong> books are on the table.",
+                    "<strong>The</strong> girls are very nice."
+                ]
+            },
+            "consejo": "The article must match the noun in gender and number."
+        },
+        {
+            "id": 5,
+            "categoria": "Grammar",
+            "tema": "The indefinite article",
+            "explicacion": "These words are used to introduce new information or to talk about one thing among many in a general way.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "He's <strong>a</strong> very tall boy.",
+                    "She has <strong>a</strong> Spanish friend.",
+                    "I have <strong>some</strong> books at my house.",
+                    "There are <strong>some</strong> photos on the table."
+                ]
+            },
+            "consejo": "Use \"un\" for masculine and \"una\" for feminine singular."
+        },
+        {
+            "id": 6,
+            "categoria": "Grammar",
+            "tema": "Agreement",
+            "explicacion": "In Spanish, the gender and number of words must always be the same within the same sentence.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "She is <strong>brunette</strong>.",
+                    "They are <strong>tall</strong>.",
+                    "The houses are <strong>white</strong>.",
+                    "The boy is <strong>nice</strong>."
+                ]
+            },
+            "consejo": "If the noun is feminine, the adjective also ends in -a."
+        },
+        {
+            "id": 7,
+            "categoria": "General notions",
+            "tema": "Existence",
+            "explicacion": "We use this verb form to indicate that an object or a person is currently present in a specific place.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "<strong>There is</strong> a photo of my friend here.",
+                    "<strong>There are</strong> ten students in my class.",
+                    "<strong>Is there</strong> a bathroom nearby?",
+                    "<strong>There is</strong> a pen on the table."
+                ]
+            },
+            "consejo": "The word \"hay\" never changes; it's always written the same way."
+        },
+        {
+            "id": 8,
+            "categoria": "Specific notions",
+            "tema": "Nationality",
+            "explicacion": "Use these words after the verb 'to be' to explain which country or place in the world you are from.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "He is <strong>Spanish</strong>.",
+                    "We are <strong>Mexican</strong>.",
+                    "She is <strong>French</strong>.",
+                    "I am <strong>Italian</strong>."
+                ]
+            },
+            "consejo": "Nationalities in Spanish are written with a lowercase letter."
+        },
+        {
+            "id": 9,
+            "categoria": "Pronunciation and prosody",
+            "tema": "Segmentation",
+            "explicacion": "It's essential to separate groups of words with short pauses so that others can understand your message better.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "No, Elena. <strong>[pause]</strong> She's of medium height.",
+                    "Yes, <strong>[pause]</strong> I'm from Spain.",
+                    "Hi, <strong>[pause]</strong> my name is Pedro.",
+                    "My friend is tall, <strong>[pause]</strong> blonde, and nice."
+                ]
+            },
+            "consejo": "Take a quick breath at every comma to sound more natural."
+        },
+        {
+            "id": 10,
+            "categoria": "Pronunciation and prosody",
+            "tema": "Enunciative intonation",
+            "explicacion": "When you state something with confidence, your tone of voice should drop a bit as you reach the end of the sentence.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "I have the <strong>information</strong>.",
+                    "My sister is a <strong>doctor</strong>.",
+                    "I live in <strong>Madrid</strong>.",
+                    "The book is <strong>blue</strong>."
+                ]
+            },
+            "consejo": "Lower your pitch at the end to show you've finished speaking."
+        },
+        {
+            "id": 11,
+            "categoria": "Orthography",
+            "tema": "Period",
+            "explicacion": "This punctuation mark is necessary to separate sentences and mark the end of a complete idea within a text.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "It's Lucía<strong>.</strong>",
+                    "She's from Madrid<strong>.</strong>",
+                    "My cat is black<strong>.</strong> I am tall.",
+                    "Today is Monday<strong>.</strong>"
+                ]
+            },
+            "consejo": "Remember to always use a capital letter after a period."
+        },
+        {
+            "id": 12,
+            "categoria": "Pragmatic tactics and strategies",
+            "tema": "Softening",
+            "explicacion": "We use gentle forms and indirect descriptions to avoid being too direct or coming across as a bit rude when talking to others.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "She is <strong>average height</strong>.",
+                    "The exam is <strong>a bit</strong> hard.",
+                    "It's not very <strong>expensive</strong>.",
+                    "Juan is <strong>kind of</strong> shy."
+                ]
+            },
+            "consejo": "Use \"un poco\" to soften adjectives that seem negative."
+        },
+        {
+            "id": 13,
+            "categoria": "Pragmatic tactics and strategies",
+            "tema": "Personal",
+            "explicacion": "To create an emotional connection, we should focus our communication on people and their closest human relationships.",
+            "ejemplos": {
+                "formato": "lista",
+                "items": [
+                    "They are very <strong>good friends</strong>.",
+                    "<strong>My family</strong> lives in Valencia.",
+                    "<strong>Your classmates</strong> are very kind.",
+                    "<strong>We</strong> are very happy."
+                ]
+            },
+            "consejo": "Mentioning people helps to have more interesting conversations."
+        }
+    ]
+}

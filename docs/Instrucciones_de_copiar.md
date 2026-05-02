@@ -3,15 +3,15 @@
 Este proyecto funciona como una **plantilla universal**. Para crear una nueva página de estudio para otro video o nivel, sigue estos pasos:
 
 ## 1. Duplicar la Estructura
-Copia la carpeta `Web` completa en una nueva ubicación o con un nuevo nombre (ejemplo: `Guia_A1_Leccion2`).
+Copiar la carpeta de la plantilla completa (ejemplo: `Plantilla_Web`) en una nueva ubicación con el nombre de tu lección (ejemplo: `Guia_A1_Leccion2`).
 
 ## 2. Generar el Contenido
-1.  Realiza el análisis lingüístico de tu nuevo video.
-2.  Usa el archivo `Prompt_Fichas_Didacticas.md` (pegando las instrucciones en Gemini) para procesar el análisis.
-3.  Copia el **JSON** resultante que genera Gemini.
+1.  Usa el **Paso 1** (`1. A1_Generado_Contenido_PCIC.md`) para crear el guion y el análisis.
+2.  Usa el **Paso 2** (`2. A1_Generador_Fichas_Didacticas.md`) para crear las fichas.
+3.  Usa el **Paso 3** (`3. A1_Traductor_JSON_Principal.md`) para generar el JSON final y las 4 traducciones.
 
 ## 3. Actualizar `contenido.json`
-Abre el archivo `contenido.json` en la nueva carpeta y actualiza los dos bloques principales:
+Abre la carpeta `data/` en la nueva ubicación y actualiza los archivos `contenido.json`, `contenido_en.json`, etc.
 
 ### Bloque A: "meta"
 Actualiza la información general:
@@ -19,7 +19,7 @@ Actualiza la información general:
 - `titulo_hero`: El título principal que se ve al abrir la web.
 - `objetivo`: El texto que explica qué aprenderá el alumno (puedes usar HTML como `<strong>`).
 - `video_url`: El enlace al video de YouTube.
-- `ilustracion`: El nombre del archivo de imagen (ej: `foto.png`) que debes guardar en la misma carpeta.
+- `ilustracion`: El nombre del archivo de imagen (ej: `foto.png`) que debes guardar en `assets/ilustraciones/`.
 
 ### Bloque B: "fichas"
 - Borra las fichas anteriores y pega el array de fichas que te entregó Gemini.
@@ -27,10 +27,10 @@ Actualiza la información general:
 
 ## 4. Archivos que NO se tocan
 Para mantener la consistencia visual y técnica, **NO modifiques** estos archivos (a menos que quieras cambiar el diseño de TODAS tus guías):
-- `index.html`
-- `main.js` (Motor de renderizado)
-- `style.css` (Diseño y animaciones)
-- `Logo Español para todos_transp.png`
+- `index.html` (Raíz)
+- `js/main.js` (Motor de renderizado)
+- `css/style.css` (Diseño y animaciones)
+- `assets/img/Logo Español para todos_transp.png`
 
 ## 5. Publicación
 Si usas GitHub Pages:

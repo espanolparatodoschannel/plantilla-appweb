@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "titulo_pagina": "Guía A1: Describir Personas en Español",
+    "titulo_hero": "Aprende a describir a las personas",
+    "objetivo": "<strong class=\"font-black text-white\">Objetivo:</strong> Identifica rasgos físicos, usa adjetivos y confirma información.",
+    "video_label": "Video: La cita a ciegas",
+    "video_url": "https://espanolparatodoschannel.github.io/ni.2_El_Mercado_de_los_Recuerdos_Olvidados/",
+    "ilustracion": "ele_a1_people_illustration_1777403668192.png"
+  },
+  "fichas": [
+    {
+      "id": 1,
+      "categoria": "Funciones",
+      "tema": "Dirigirse a alguien",
+      "explicacion": "Estas expresiones sirven para captar la atención de otra persona utilizando su nombre propio de una forma muy natural.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "¡Hola, <strong>Elena</strong>!",
+          "Perdona, <strong>Juan</strong>, ¿tienes hora?",
+          "Escucha, <strong>Pablo</strong>, mira esto.",
+          "Buenos días, <strong>Señora García</strong>."
+        ]
+      },
+      "consejo": "Usa el nombre de la persona para ser más amable."
+    },
+    {
+      "id": 2,
+      "categoria": "Funciones",
+      "tema": "Presentar a alguien",
+      "explicacion": "Utiliza estas frases sencillas para introducir a una persona nueva a tus amigos o a tus compañeros de trabajo.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Te <strong>presento</strong> a mi amiga Lucía.",
+          "Este <strong>es</strong> mi hermano Carlos.",
+          "Te <strong>presento</strong> a mi profesor.",
+          "Esta <strong>es</strong> mi compañera María."
+        ]
+      },
+      "consejo": "Usa \"te presento\" en situaciones con amigos y familiares."
+    },
+    {
+      "id": 3,
+      "categoria": "Funciones",
+      "tema": "Responder a una presentación",
+      "explicacion": "Son palabras de cortesía muy importantes que debes decir inmediatamente después de conocer a una persona por primera vez.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "¡Mucho <strong>gusto</strong>!",
+          "<strong>Encantado</strong> de conocerte.",
+          "Es un <strong>placer</strong>.",
+          "Igualmente, muchas <strong>gracias</strong>."
+        ]
+      },
+      "consejo": "“Encantado” es para hombres y “Encantada” para mujeres."
+    },
+    {
+      "id": 4,
+      "categoria": "Gramática",
+      "tema": "El artículo definido",
+      "explicacion": "Usamos estas pequeñas palabras delante de los nombres para hablar sobre cosas o personas que ya conocemos muy bien.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "<strong>El</strong> pelo de Lucía es largo.",
+          "<strong>La</strong> casa de mi amigo es grande.",
+          "<strong>Los</strong> libros están en la mesa.",
+          "<strong>Las</strong> chicas son muy simpáticas."
+        ]
+      },
+      "consejo": "El artículo debe ser igual al nombre en género y número."
+    },
+    {
+      "id": 5,
+      "categoria": "Gramática",
+      "tema": "El artículo indefinido",
+      "explicacion": "Estas palabras sirven para presentar información nueva o para hablar de una cosa entre muchas otras de forma general.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Él es <strong>un</strong> chico muy alto.",
+          "Ella tiene <strong>una</strong> amiga española.",
+          "Tengo <strong>unos</strong> libros en mi casa.",
+          "Hay <strong>unas</strong> fotos en la mesa."
+        ]
+      },
+      "consejo": "Usa \"un\" para masculino y \"una\" para femenino singular."
+    },
+    {
+      "id": 6,
+      "categoria": "Gramática",
+      "tema": "Concordancia",
+      "explicacion": "En español, el género y el número de las palabras deben ser iguales dentro de una misma frase siempre.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Ella es <strong>morena</strong>.",
+          "Ellos son <strong>altos</strong>.",
+          "Las casas son <strong>blancas</strong>.",
+          "El chico es <strong>simpático</strong>."
+        ]
+      },
+      "consejo": "Si el nombre es femenino, el adjetivo también termina en -a."
+    },
+    {
+      "id": 7,
+      "categoria": "Nociones generales",
+      "tema": "Existencia",
+      "explicacion": "Utilizamos esta forma verbal para indicar que un objeto o una persona está presente en un lugar determinado actualmente.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Aquí <strong>hay</strong> una foto de mi amigo.",
+          "En mi clase <strong>hay</strong> diez alumnos.",
+          "¿<strong>Hay</strong> un baño por aquí cerca?",
+          "En la mesa <strong>hay</strong> un bolígrafo."
+        ]
+      },
+      "consejo": "La palabra \"hay\" nunca cambia, siempre se escribe igual."
+    },
+    {
+      "id": 8,
+      "categoria": "Nociones específicas",
+      "tema": "Nacionalidad",
+      "explicacion": "Usa estas palabras después del verbo ser para explicar de qué país o de qué lugar del mundo eres.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Él es <strong>español</strong>.",
+          "Nosotros somos <strong>mexicanos</strong>.",
+          "Ella es <strong>francesa</strong>.",
+          "Yo soy <strong>italiano</strong>."
+        ]
+      },
+      "consejo": "Las nacionalidades en español se escriben con letra minúscula."
+    },
+    {
+      "id": 9,
+      "categoria": "Pronunciación y prosodia",
+      "tema": "Segmentación",
+      "explicacion": "Es fundamental separar los grupos de palabras con pausas pequeñas para que los demás puedan comprender mejor tu mensaje.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "No, Elena. <strong>[pausa]</strong> Ella es de estatura media.",
+          "Sí, <strong>[pausa]</strong> soy de España.",
+          "Hola, <strong>[pausa]</strong> mi nombre es Pedro.",
+          "Mi amigo es alto, <strong>[pausa]</strong> rubio y simpático."
+        ]
+      },
+      "consejo": "Respira brevemente en cada coma para sonar más natural."
+    },
+    {
+      "id": 10,
+      "categoria": "Pronunciación y prosodia",
+      "tema": "Entonación enunciativa",
+      "explicacion": "Cuando afirmas algo con seguridad, el tono de tu voz debe bajar un poco al llegar al final de frase.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Tengo la <strong>información</strong>.",
+          "Mi hermana es <strong>médica</strong>.",
+          "Vivo en <strong>Madrid</strong>.",
+          "El libro es <strong>azul</strong>."
+        ]
+      },
+      "consejo": "Baja el tono al final para indicar que terminaste de hablar."
+    },
+    {
+      "id": 11,
+      "categoria": "Ortografía",
+      "tema": "Punto",
+      "explicacion": "Este signo gráfico es necesario para separar oraciones y marcar el final de una idea completa dentro de un texto.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Es Lucía<strong>.</strong>",
+          "Ella es de Madrid<strong>.</strong>",
+          "Mi gato es negro<strong>.</strong> Yo soy alto.",
+          "Hoy es lunes<strong>.</strong>"
+        ]
+      },
+      "consejo": "Recuerda escribir siempre una letra mayúscula después de un punto."
+    },
+    {
+      "id": 12,
+      "categoria": "Tácticas y estrategias pragmáticas",
+      "tema": "Atenuación",
+      "explicacion": "Utilizamos formas suaves y descripciones indirectas para evitar ser demasiado directos o resultar un poco importunos al hablar con otros.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Ella es de <strong>estatura media</strong>.",
+          "El examen es <strong>un poco</strong> difícil.",
+          "No es muy <strong>caro</strong>.",
+          "Juan es <strong>algo</strong> tímido."
+        ]
+      },
+      "consejo": "Usa \"un poco\" para suavizar adjetivos que parecen negativos."
+    },
+    {
+      "id": 13,
+      "categoria": "Tácticas y estrategias pragmáticas",
+      "tema": "Personal",
+      "explicacion": "Para crear una conexión emocional, debemos centrar nuestra comunicación en las personas y en sus relaciones humanas más cercanas.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Ellos son muy <strong>buenos amigos</strong>.",
+          "<strong>Mi familia</strong> vive en Valencia.",
+          "<strong>Tus compañeros</strong> son muy amables.",
+          "<strong>Nosotros</strong> estamos muy felices."
+        ]
+      },
+      "consejo": "Mencionar a las personas ayuda a tener conversaciones más interesantes."
+    }
+  ]
+}
