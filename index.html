@@ -61,33 +61,24 @@
 <body class="text-slate-800 dark:text-slate-200 bg-[var(--bg-page)] dark:bg-darkPage transition-colors duration-300">
 
     <!-- Header / Hero -->
-    <header class="header-mesh text-white pt-4 pb-8 md:pt-6 md:pb-12 px-4 shadow-2xl relative overflow-hidden">
+    <header class="header-mesh text-white pt-4 pb-8 md:pt-6 md:pb-12 shadow-2xl relative overflow-hidden">
 
 
 
-        <div class="max-w-6xl mx-auto relative z-10 flex flex-col items-center">
-            <!-- Barra superior: Logo e Idiomas (Navegación Clásica) -->
-            <div class="w-full flex flex-wrap items-center justify-between gap-y-5 gap-x-2 md:gap-x-4 md:pr-4 mb-6 md:mb-8">
+        <div class="max-w-6xl mx-auto px-4 md:px-8 relative z-10 flex flex-col items-center">
+            <!-- Barra superior: Logo e Idiomas -->
+            <div class="w-full flex flex-wrap items-center justify-between gap-y-3 gap-x-3 mb-4 md:mb-6">
                 
                 <!-- Logo (Izquierda en móvil y escritorio) -->
                 <img src="assets/img/Logo Español para todos_transp.png" alt="Español Para Todos — Logo del canal"
                     class="h-20 md:h-28 order-1 md:order-1 md:mr-auto brightness-110 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]">
 
-                <!-- Agrupador derecha en móvil (Badge + Luna) -->
-                <div class="flex items-center gap-2 md:gap-4 order-2 md:order-3">
-                    <div id="nivel-badge" class="h-10 md:h-12 bg-white/10 backdrop-blur-md border border-white/10 text-white text-xs md:text-sm font-bold uppercase tracking-widest px-4 md:px-6 rounded-full flex items-center justify-center shadow-lg">
-                        Nivel A1
-                    </div>
-                    <!-- Toggle Theme -->
-                    <button id="themeToggleBtn" class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/10 flex items-center justify-center transition-all hover:bg-white/20 shadow-lg text-white" aria-label="Cambiar tema oscuro/claro">
-                        <i class="fas fa-moon" id="themeIcon"></i>
-                    </button>
-                </div>
+                <!-- Controles superiores: Selector + Nivel A1 + Modo Oscuro -->
+                <div class="flex items-center gap-3 order-2 md:order-2 ml-auto">
 
-                <!-- Selector de Idiomas + Pista (Fila entera en móvil, medio/derecha en escritorio) -->
-                <div class="w-full md:w-auto flex flex-col items-center md:items-end gap-2 order-3 md:order-2">
-                    <nav aria-label="Idioma de la interfaz" class="w-full md:w-auto flex justify-center">
-                        <div class="h-auto bg-white/10 backdrop-blur-md border border-white/10 rounded-full p-1.5 flex items-center gap-1.5 shadow-lg"
+                    <!-- Selector de Idiomas -->
+                    <nav aria-label="Idioma de la interfaz">
+                        <div class="h-10 md:h-12 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-1.5 flex items-center gap-1.5 shadow-lg"
                              role="group" aria-label="Selecciona tu idioma">
                             <button class="lang-btn active w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
                                     data-lang="es" aria-label="Español" aria-pressed="true">
@@ -116,10 +107,23 @@
                             </button>
                         </div>
                     </nav>
-                    <!-- Pista: selecciona idioma y toca el texto -->
-                    <p id="touch-hint" class="touch-hint" aria-live="polite"></p>
+
+                    <!-- Badge Nivel A1 -->
+                    <div id="nivel-badge" class="h-10 md:h-12 bg-white/10 backdrop-blur-md border border-white/10 text-white text-xs md:text-sm font-bold uppercase tracking-widest px-4 md:px-6 rounded-full flex items-center justify-center shadow-lg whitespace-nowrap">
+                        Nivel A1
+                    </div>
+
+                    <!-- Toggle Modo Oscuro -->
+                    <button id="themeToggleBtn" class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/10 flex items-center justify-center transition-all hover:bg-white/20 shadow-lg text-white" aria-label="Cambiar tema oscuro/claro">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
                 </div>
 
+            </div>
+
+            <!-- Pista debajo de los controles -->
+            <div class="flex justify-center md:justify-end w-full mb-2 md:pr-0">
+                <p id="touch-hint" class="touch-hint" aria-live="polite"></p>
             </div>
 
             <!-- Contenido Central -->
