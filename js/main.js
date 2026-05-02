@@ -74,7 +74,6 @@ const HINT_FLAGS = {
     pt: 'https://flagcdn.com/w40/br.png',
     de: 'https://flagcdn.com/w40/de.png'
 };
-};
 
 // =============================================
 // TTS — Síntesis de voz (español latino neutro)
