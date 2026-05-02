@@ -59,11 +59,21 @@ let currentLang = 'es';
 // Etiquetas de UI por idioma
 // =============================================
 const LABELS = {
-    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1', touch_hint: '👆 Toca cualquier texto para ver la traducción' },
-    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1', touch_hint: '👆 Touch any text to see the translation' },
-    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', ejemplo_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1', touch_hint: '👆 Touche n\'importe quel texte pour voir la traduction' },
-    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1', touch_hint: '👆 Toque em qualquer texto para ver a tradução' },
-    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1', touch_hint: '👆 Tippe auf einen Text, um die Übersetzung zu sehen' }
+    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1', touch_hint: 'Selecciona tu idioma y luego toca cualquier texto para ver la traducción' },
+    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1', touch_hint: 'Select your language and then touch any text to see the translation' },
+    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', ejemplo_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1', touch_hint: 'Sélectionne ta langue puis touche n\'importe quel texte pour voir la traduction' },
+    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1', touch_hint: 'Selecione seu idioma e toque em qualquer texto para ver a tradução' },
+    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1', touch_hint: 'Wähle deine Sprache und tippe auf einen Text, um die Übersetzung zu sehen' }
+};
+
+// Banderas CDN para cada idioma del hint
+const HINT_FLAGS = {
+    es: 'https://flagcdn.com/w40/es.png',
+    en: 'https://flagcdn.com/w40/gb.png',
+    fr: 'https://flagcdn.com/w40/fr.png',
+    pt: 'https://flagcdn.com/w40/br.png',
+    de: 'https://flagcdn.com/w40/de.png'
+};
 };
 
 // =============================================
@@ -347,22 +357,19 @@ function updateTouchHint() {
         hintInterval = null;
     }
 
-    if (transData && currentLang !== 'es') {
-        hint.classList.add('active');
-        
-        // Función para cambiar el texto
-        const rotateHint = () => {
-            const lang = hintLangs[hintLangIndex];
-            hint.textContent = LABELS[lang].touch_hint;
-            hintLangIndex = (hintLangIndex + 1) % hintLangs.length;
-        };
-        
-        rotateHint(); // Ejecutar inmediatamente
-        hintInterval = setInterval(rotateHint, 2500); // Cambiar cada 2.5 segundos
-    } else {
-        hint.classList.remove('active');
-        hint.textContent = '';
-    }
+    // Siempre mostrar el hint, rotando entre todos los idiomas
+    hint.classList.add('active');
+    
+    const rotateHint = () => {
+        const lang = hintLangs[hintLangIndex];
+        const flagUrl = HINT_FLAGS[lang];
+        const text = LABELS[lang].touch_hint;
+        hint.innerHTML = `<img src="${flagUrl}" alt="" aria-hidden="true" style="width:20px;height:20px;border-radius:50%;object-fit:cover;flex-shrink:0;"> <span>${text}</span>`;
+        hintLangIndex = (hintLangIndex + 1) % hintLangs.length;
+    };
+    
+    rotateHint(); // Ejecutar inmediatamente
+    hintInterval = setInterval(rotateHint, 2500); // Cambiar cada 2.5 segundos
 }
 
 // =============================================
