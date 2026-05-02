@@ -59,11 +59,11 @@ let currentLang = 'es';
 // Etiquetas de UI por idioma
 // =============================================
 const LABELS = {
-    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1' },
-    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1' },
-    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', ejemplo_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1' },
-    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1' },
-    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1' }
+    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1', touch_hint: '👆 Toca cualquier texto para ver la traducción' },
+    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1', touch_hint: '👆 Touch any text to see the translation' },
+    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', ejemplo_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1', touch_hint: '👆 Touche n\'importe quel texte pour voir la traduction' },
+    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1', touch_hint: '👆 Toque em qualquer texto para ver a tradução' },
+    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1', touch_hint: '👆 Tippe auf einen Text, um die Übersetzung zu sehen' }
 };
 
 // =============================================
@@ -333,12 +333,32 @@ function updateProgress(total) {
 // =============================================
 // Pista táctil (solo móvil, solo si hay traducción activa)
 // =============================================
+let hintInterval = null;
+let hintLangs = ['en', 'fr', 'pt', 'de', 'es'];
+let hintLangIndex = 0;
+
 function updateTouchHint() {
     const hint = document.getElementById('touch-hint');
     if (!hint) return;
+    
+    // Limpiar intervalo previo si existe
+    if (hintInterval) {
+        clearInterval(hintInterval);
+        hintInterval = null;
+    }
+
     if (transData && currentLang !== 'es') {
-        hint.textContent = '👆 Toca cualquier texto para ver la traducción';
         hint.classList.add('active');
+        
+        // Función para cambiar el texto
+        const rotateHint = () => {
+            const lang = hintLangs[hintLangIndex];
+            hint.textContent = LABELS[lang].touch_hint;
+            hintLangIndex = (hintLangIndex + 1) % hintLangs.length;
+        };
+        
+        rotateHint(); // Ejecutar inmediatamente
+        hintInterval = setInterval(rotateHint, 2500); // Cambiar cada 2.5 segundos
     } else {
         hint.classList.remove('active');
         hint.textContent = '';
