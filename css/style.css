@@ -292,7 +292,14 @@ body {
 }
 
 .touch-hint.active {
-    display: block;
+    display: inline-flex;
+}
+
+@media (max-width: 768px) {
+    .touch-hint {
+        font-size: 0.68rem;
+        padding: 0.5rem 1rem;
+    }
 }
 
 @keyframes pulse-hint {
