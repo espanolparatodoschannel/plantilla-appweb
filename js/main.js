@@ -363,7 +363,7 @@ function updateTouchHint() {
         const lang = hintLangs[hintLangIndex];
         const flagUrl = HINT_FLAGS[lang];
         const text = LABELS[lang].touch_hint;
-        hint.innerHTML = `<img src="${flagUrl}" alt="" aria-hidden="true" style="width:20px;height:20px;border-radius:50%;object-fit:cover;flex-shrink:0;"> <span>${text}</span>`;
+        hint.innerHTML = `<img src="${flagUrl}" alt="" aria-hidden="true" style="width:14px;height:14px;border-radius:50%;object-fit:cover;flex-shrink:0;"> <span>${text}</span>`;
         hintLangIndex = (hintLangIndex + 1) % hintLangs.length;
     };
     
