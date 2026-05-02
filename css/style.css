@@ -251,15 +251,13 @@ body {
     }
 }
 
-/* Interacción: Touch (Móviles) */
-@media (hover: none) {
-    .ghost-container.touch-active .ghost-original {
-        opacity: 0.05;
-        filter: blur(2px);
-    }
-    .ghost-container.touch-active .ghost-translation {
-        opacity: 1;
-    }
+/* Interacción: Touch (Siempre activo si tiene la clase) */
+.ghost-container.touch-active .ghost-original {
+    opacity: 0.05;
+    filter: blur(2px);
+}
+.ghost-container.touch-active .ghost-translation {
+    opacity: 1;
 }
 
 /* Focus accesible para teclado en ghost text */
@@ -284,7 +282,7 @@ body {
     animation: pulse-hint 2.5s ease-in-out 3;
 }
 
-@media (hover: none) {
+@media (max-width: 768px) {
     .touch-hint.active {
         display: block;
     }
