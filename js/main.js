@@ -59,11 +59,11 @@ let currentLang = 'es';
 // Etiquetas de UI por idioma
 // =============================================
 const LABELS = {
-    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1', touch_hint: 'Selecciona tu idioma y luego toca cualquier texto para ver la traducción' },
-    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1', touch_hint: 'Select your language and then touch any text to see the translation' },
-    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', ejemplo_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1', touch_hint: 'Sélectionne ta langue puis touche n\'importe quel texte pour voir la traduction' },
-    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1', touch_hint: 'Selecione seu idioma e toque em qualquer texto para ver a tradução' },
-    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1', touch_hint: 'Wähle deine Sprache und tippe auf einen Text, um die Übersetzung zu sehen' }
+    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1', touch_hint: 'Selecciona un idioma y toca el texto para traducir' },
+    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1', touch_hint: 'Select a language and touch the text to translate' },
+    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', exemple_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1', touch_hint: 'Choisis une langue et touche le texte pour traduire' },
+    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1', touch_hint: 'Escolha um idioma e toque no texto para traduzir' },
+    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1', touch_hint: 'Sprache wählen und Text antippen zum Übersetzen' }
 };
 
 // Banderas CDN para cada idioma del hint

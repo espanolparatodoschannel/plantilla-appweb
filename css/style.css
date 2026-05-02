@@ -276,14 +276,9 @@ body {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.85);
     text-align: center;
-    padding: 0.6rem 1.2rem;
-    margin-top: 1.25rem;
+    margin-top: 0.25rem;
     letter-spacing: 0.04em;
     font-weight: 600;
-    background: rgba(255,255,255,0.12);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.2);
-    border-radius: 9999px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
