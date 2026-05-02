@@ -164,7 +164,7 @@ body {
    SELECTOR DE IDIOMA
    ============================================= */
 .lang-btn {
-    opacity: 0.55;
+    opacity: 0.75;
     transform: scale(0.95);
     transition: all 0.3s ease;
     /* WCAG: área mínima táctil 44×44px (Apple HIG) */
@@ -274,11 +274,13 @@ body {
 .touch-hint {
     display: none;
     font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.95);
     text-align: center;
     margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
     letter-spacing: 0.04em;
     font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
     display: inline-flex;
     align-items: center;
     justify-content: center;
