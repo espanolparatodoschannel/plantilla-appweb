@@ -50,6 +50,18 @@ body {
     .header-mesh .mb-8 {
         margin-bottom: 1rem !important;
     }
+
+    /* Evitar que el grupo de controles desborde en móvil */
+    .header-mesh .flex-wrap {
+        flex-wrap: wrap !important;
+    }
+
+    /* Selector de idiomas: padding reducido para móvil */
+    .header-mesh nav > div[role="group"] {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        gap: 0.15rem;
+    }
 }
 
 /* =============================================
@@ -167,9 +179,25 @@ body {
     opacity: 0.75;
     transform: scale(0.95);
     transition: all 0.3s ease;
-    /* WCAG: área mínima táctil 44×44px (Apple HIG) */
+    /* WCAG: área mínima táctil 44×44px (Apple HIG) — reducida en móvil para que quepan los 3 controles */
     min-width: 44px;
     min-height: 44px;
+}
+
+/* Móvil medio (≤640px): ajustar al tamaño real w-8 h-8 del HTML para que no expandan el contenedor h-9 */
+@media (max-width: 640px) {
+    .lang-btn {
+        min-width: 32px;
+        min-height: 32px;
+    }
+}
+
+/* Móvil pequeño (≤480px): igual */
+@media (max-width: 480px) {
+    .lang-btn {
+        min-width: 32px;
+        min-height: 32px;
+    }
 }
 
 .lang-btn.active,

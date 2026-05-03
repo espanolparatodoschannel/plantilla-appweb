@@ -347,28 +347,30 @@ let hintLangs = ['en', 'fr', 'pt', 'de', 'es'];
 let hintLangIndex = 0;
 
 function updateTouchHint() {
-    const hint = document.getElementById('touch-hint');
-    if (!hint) return;
-    
-    // Limpiar intervalo previo si existe
+    const hintDesktop = document.getElementById('touch-hint');
+    const hintMobile  = document.getElementById('touch-hint-mobile');
+    if (!hintDesktop && !hintMobile) return;
+
     if (hintInterval) {
         clearInterval(hintInterval);
         hintInterval = null;
     }
 
-    // Siempre mostrar el hint, rotando entre todos los idiomas
-    hint.classList.add('active');
-    
+    if (hintDesktop) hintDesktop.classList.add('active');
+    if (hintMobile)  hintMobile.classList.add('active');
+
     const rotateHint = () => {
-        const lang = hintLangs[hintLangIndex];
+        const lang    = hintLangs[hintLangIndex];
         const flagUrl = HINT_FLAGS[lang];
-        const text = LABELS[lang].touch_hint;
-        hint.innerHTML = `<img src="${flagUrl}" alt="" aria-hidden="true" style="width:14px;height:14px;border-radius:50%;object-fit:cover;flex-shrink:0;"> <span>${text}</span>`;
+        const text    = LABELS[lang].touch_hint;
+        const html    = `<img src="${flagUrl}" alt="" aria-hidden="true" style="width:14px;height:14px;border-radius:50%;object-fit:cover;flex-shrink:0;"> <span>${text}</span>`;
+        if (hintDesktop) hintDesktop.innerHTML = html;
+        if (hintMobile)  hintMobile.innerHTML  = html;
         hintLangIndex = (hintLangIndex + 1) % hintLangs.length;
     };
-    
-    rotateHint(); // Ejecutar inmediatamente
-    hintInterval = setInterval(rotateHint, 3000); // Cambiar cada 3 segundos
+
+    rotateHint();
+    hintInterval = setInterval(rotateHint, 3000);
 }
 
 // =============================================

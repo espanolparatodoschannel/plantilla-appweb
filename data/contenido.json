@@ -2,7 +2,7 @@
   "meta": {
     "titulo_pagina": "Guía A1: Describir Personas en Español",
     "titulo_hero": "Aprende a describir a las personas",
-    "objetivo": "<strong class=\"font-black text-white\">Objetivo:</strong> Identifica rasgos físicos, usa adjetivos y confirma información.",
+    "objetivo": "Identifica rasgos físicos, usa adjetivos y confirma información.",
     "video_label": "Video: La cita a ciegas",
     "video_url": "https://espanolparatodoschannel.github.io/ni.2_El_Mercado_de_los_Recuerdos_Olvidados/",
     "ilustracion": "ele_a1_people_illustration_1777403668192.png"
@@ -11,210 +11,238 @@
     {
       "id": 1,
       "categoria": "Funciones",
-      "tema": "Dirigirse a alguien",
-      "explicacion": "Estas expresiones sirven para captar la atención de otra persona utilizando su nombre propio de una forma muy natural.",
+      "tema": "Pedir confirmación",
+      "explicacion": "Utiliza estas expresiones cortas cuando necesitas asegurar que la información recibida sobre una persona es totalmente correcta y verídica.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "¡Hola, <strong>Elena</strong>!",
-          "Perdona, <strong>Juan</strong>, ¿tienes hora?",
-          "Escucha, <strong>Pablo</strong>, mira esto.",
-          "Buenos días, <strong>Señora García</strong>."
+          "¿Buscamos a una mujer alta, <strong>¿verdad?</strong>",
+          "Él es tu hermano, <strong>¿verdad?</strong>",
+          "¿Tus ojos son verdes, <strong>¿no?</strong>",
+          "Usted es el profesor, <strong>¿verdad?</strong>"
         ]
       },
-      "consejo": "Usa el nombre de la persona para ser más amable."
+      "consejo": "Usa \"¿verdad?\" al final de la frase para preguntar."
     },
     {
       "id": 2,
       "categoria": "Funciones",
-      "tema": "Presentar a alguien",
-      "explicacion": "Utiliza estas frases sencillas para introducir a una persona nueva a tus amigos o a tus compañeros de trabajo.",
+      "tema": "Confirmar la información previa",
+      "explicacion": "Sirve para responder de forma positiva cuando otra persona te pregunta si los datos que tiene son realmente ciertos.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Te <strong>presento</strong> a mi amiga Lucía.",
-          "Este <strong>es</strong> mi hermano Carlos.",
-          "Te <strong>presento</strong> a mi profesor.",
-          "Esta <strong>es</strong> mi compañera María."
+          "<strong>Sí, confirmo</strong>. Es Elena.",
+          "<strong>Exacto</strong>, ella es mi madre.",
+          "<strong>Así es</strong>, busco a Manuel.",
+          "<strong>Sí</strong>, tienes la información correcta."
         ]
       },
-      "consejo": "Usa \"te presento\" en situaciones con amigos y familiares."
+      "consejo": "\"Sí, confirmo\" es una forma formal y clara de responder."
     },
     {
       "id": 3,
-      "categoria": "Funciones",
-      "tema": "Responder a una presentación",
-      "explicacion": "Son palabras de cortesía muy importantes que debes decir inmediatamente después de conocer a una persona por primera vez.",
+      "categoria": "Gramática",
+      "tema": "Adjetivos calificativos",
+      "explicacion": "Estas palabras son muy útiles porque sirven para explicar las cualidades o las características físicas de las personas y objetos.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "¡Mucho <strong>gusto</strong>!",
-          "<strong>Encantado</strong> de conocerte.",
-          "Es un <strong>placer</strong>.",
-          "Igualmente, muchas <strong>gracias</strong>."
+          "Ella es una mujer <strong>alta</strong>.",
+          "Mi amigo es muy <strong>simpático</strong>.",
+          "El coche es <strong>rápido</strong>.",
+          "Tu casa es <strong>bonita</strong>."
         ]
       },
-      "consejo": "“Encantado” es para hombres y “Encantada” para mujeres."
+      "consejo": "Los adjetivos ayudan a crear una imagen en la mente."
     },
     {
       "id": 4,
       "categoria": "Gramática",
-      "tema": "El artículo definido",
-      "explicacion": "Usamos estas pequeñas palabras delante de los nombres para hablar sobre cosas o personas que ya conocemos muy bien.",
+      "tema": "Adjetivos relacionales",
+      "explicacion": "Son palabras que clasifican al objeto dentro de un grupo o tipo específico para diferenciarlo de otros muy parecidos.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "<strong>El</strong> pelo de Lucía es largo.",
-          "<strong>La</strong> casa de mi amigo es grande.",
-          "<strong>Los</strong> libros están en la mesa.",
-          "<strong>Las</strong> chicas son muy simpáticas."
+          "Lleva las gafas <strong>rojas</strong>.",
+          "Es una decisión <strong>familiar</strong>.",
+          "El coche <strong>eléctrico</strong> es azul.",
+          "Prefiero la música <strong>clásica</strong>."
         ]
       },
-      "consejo": "El artículo debe ser igual al nombre en género y número."
+      "consejo": "Estos adjetivos no suelen aceptar palabras como \"muy\"."
     },
     {
       "id": 5,
       "categoria": "Gramática",
-      "tema": "El artículo indefinido",
-      "explicacion": "Estas palabras sirven para presentar información nueva o para hablar de una cosa entre muchas otras de forma general.",
+      "tema": "El género del adjetivo",
+      "explicacion": "Debes cambiar la letra final del adjetivo dependiendo de si hablas de un hombre o de una mujer siempre.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Él es <strong>un</strong> chico muy alto.",
-          "Ella tiene <strong>una</strong> amiga española.",
-          "Tengo <strong>unos</strong> libros en mi casa.",
-          "Hay <strong>unas</strong> fotos en la mesa."
+          "Él es <strong>moreno</strong>.",
+          "Ella es <strong>morena</strong>.",
+          "El chico es <strong>alto</strong>.",
+          "La chica es <strong>alta</strong>."
         ]
       },
-      "consejo": "Usa \"un\" para masculino y \"una\" para femenino singular."
+      "consejo": "Si el adjetivo termina en -o, cámbialo a -a."
     },
     {
       "id": 6,
       "categoria": "Gramática",
-      "tema": "Concordancia",
-      "explicacion": "En español, el género y el número de las palabras deben ser iguales dentro de una misma frase siempre.",
+      "tema": "El número del adjetivo",
+      "explicacion": "Cuando hablas de más de una persona o cosa, es necesario añadir una letra ese al final del adjetivo.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Ella es <strong>morena</strong>.",
-          "Ellos son <strong>altos</strong>.",
+          "Tiene los ojos <strong>negros</strong>.",
+          "Mis amigos son <strong>altos</strong>.",
           "Las casas son <strong>blancas</strong>.",
-          "El chico es <strong>simpático</strong>."
+          "Ellos están <strong>contentos</strong>."
         ]
       },
-      "consejo": "Si el nombre es femenino, el adjetivo también termina en -a."
+      "consejo": "El adjetivo y el nombre siempre deben ir iguales."
     },
     {
       "id": 7,
-      "categoria": "Nociones generales",
-      "tema": "Existencia",
-      "explicacion": "Utilizamos esta forma verbal para indicar que un objeto o una persona está presente en un lugar determinado actualmente.",
+      "categoria": "Gramática",
+      "tema": "Posición del adjetivo",
+      "explicacion": "En el idioma español, normalmente escribimos la palabra que describe después del nombre para que la frase sea correcta.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Aquí <strong>hay</strong> una foto de mi amigo.",
-          "En mi clase <strong>hay</strong> diez alumnos.",
-          "¿<strong>Hay</strong> un baño por aquí cerca?",
-          "En la mesa <strong>hay</strong> un bolígrafo."
+          "Tiene el pelo <strong>largo</strong>.",
+          "Es un libro <strong>interesante</strong>.",
+          "Busco una mesa <strong>pequeña</strong>.",
+          "Es un perro <strong>bueno</strong>."
         ]
       },
-      "consejo": "La palabra \"hay\" nunca cambia, siempre se escribe igual."
+      "consejo": "Pon el adjetivo después del objeto que quieres describir."
     },
     {
       "id": 8,
       "categoria": "Nociones específicas",
-      "tema": "Nacionalidad",
-      "explicacion": "Usa estas palabras después del verbo ser para explicar de qué país o de qué lugar del mundo eres.",
+      "tema": "Partes del cuerpo",
+      "explicacion": "Aprender los nombres de las zonas físicas es fundamental para poder explicar cómo es el aspecto de cualquier persona.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Él es <strong>español</strong>.",
-          "Nosotros somos <strong>mexicanos</strong>.",
-          "Ella es <strong>francesa</strong>.",
-          "Yo soy <strong>italiano</strong>."
+          "Tiene los <strong>ojos</strong> muy grandes.",
+          "Mi <strong>pelo</strong> es muy corto.",
+          "Tu <strong>nariz</strong> es pequeña.",
+          "Sus <strong>manos</strong> son largas."
         ]
       },
-      "consejo": "Las nacionalidades en español se escriben con letra minúscula."
+      "consejo": "Usa el verbo \"tener\" para describir las partes físicas."
     },
     {
       "id": 9,
-      "categoria": "Pronunciación y prosodia",
-      "tema": "Segmentación",
-      "explicacion": "Es fundamental separar los grupos de palabras con pausas pequeñas para que los demás puedan comprender mejor tu mensaje.",
+      "categoria": "Nociones específicas",
+      "tema": "Características físicas",
+      "explicacion": "Utilizamos este vocabulario específico para definir la apariencia general de la gente de una manera muy sencilla y rápida.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "No, Elena. <strong>[pausa]</strong> Ella es de estatura media.",
-          "Sí, <strong>[pausa]</strong> soy de España.",
-          "Hola, <strong>[pausa]</strong> mi nombre es Pedro.",
-          "Mi amigo es alto, <strong>[pausa]</strong> rubio y simpático."
+          "Ella es <strong>delgada</strong>.",
+          "Mi abuelo es <strong>mayor</strong>.",
+          "El niño es <strong>bajo</strong>.",
+          "Nosotros somos <strong>jóvenes</strong>."
         ]
       },
-      "consejo": "Respira brevemente en cada coma para sonar más natural."
+      "consejo": "Puedes usar el verbo \"ser\" para estas descripciones generales."
     },
     {
       "id": 10,
-      "categoria": "Pronunciación y prosodia",
-      "tema": "Entonación enunciativa",
-      "explicacion": "Cuando afirmas algo con seguridad, el tono de tu voz debe bajar un poco al llegar al final de frase.",
+      "categoria": "Nociones específicas",
+      "tema": "Sexo",
+      "explicacion": "Es importante conocer las palabras básicas para distinguir si la persona de la que hablamos es un hombre o mujer.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Tengo la <strong>información</strong>.",
-          "Mi hermana es <strong>médica</strong>.",
-          "Vivo en <strong>Madrid</strong>.",
-          "El libro es <strong>azul</strong>."
+          "Busco a una <strong>chica</strong> para la entrevista.",
+          "Ese <strong>hombre</strong> es mi padre.",
+          "La <strong>mujer</strong> es muy alta.",
+          "El <strong>chico</strong> es mi amigo."
         ]
       },
-      "consejo": "Baja el tono al final para indicar que terminaste de hablar."
+      "consejo": "\"Hombre\" y \"mujer\" son palabras básicas en nivel A1."
     },
     {
       "id": 11,
       "categoria": "Ortografía",
-      "tema": "Punto",
-      "explicacion": "Este signo gráfico es necesario para separar oraciones y marcar el final de una idea completa dentro de un texto.",
+      "tema": "Palabras de doble escritura",
+      "explicacion": "Existen algunas palabras especiales en español que se pueden escribir de dos formas diferentes y ambas son totalmente correctas.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Es Lucía<strong>.</strong>",
-          "Ella es de Madrid<strong>.</strong>",
-          "Mi gato es negro<strong>.</strong> Yo soy alto.",
-          "Hoy es lunes<strong>.</strong>"
+          "Su pelo es castaño <strong>oscuro</strong>.",
+          "Su pelo es castaño <strong>obscuro</strong>.",
+          "El <strong>setiembre</strong> es mi mes.",
+          "El <strong>septiembre</strong> es mi mes."
         ]
       },
-      "consejo": "Recuerda escribir siempre una letra mayúscula después de un punto."
+      "consejo": "La forma sin la letra \"b\" es más común."
     },
     {
       "id": 12,
-      "categoria": "Tácticas y estrategias pragmáticas",
-      "tema": "Atenuación",
-      "explicacion": "Utilizamos formas suaves y descripciones indirectas para evitar ser demasiado directos o resultar un poco importunos al hablar con otros.",
+      "categoria": "Ortografía",
+      "tema": "Tilde diacrítica",
+      "explicacion": "Usamos un acento gráfico pequeño para diferenciar dos palabras que se escriben igual pero tienen significados muy diferentes entre sí.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Ella es de <strong>estatura media</strong>.",
-          "El examen es <strong>un poco</strong> difícil.",
-          "No es muy <strong>caro</strong>.",
-          "Juan es <strong>algo</strong> tímido."
+          "<strong>Él</strong> es mi hermano mayor.",
+          "<strong>El</strong> pelo es de color negro.",
+          "<strong>Tú</strong> eres una persona amable.",
+          "<strong>Tu</strong> libro está en la mesa."
         ]
       },
-      "consejo": "Usa \"un poco\" para suavizar adjetivos que parecen negativos."
+      "consejo": "\"Él\" con tilde siempre se refiere a una persona."
     },
     {
       "id": 13,
       "categoria": "Tácticas y estrategias pragmáticas",
-      "tema": "Personal",
-      "explicacion": "Para crear una conexión emocional, debemos centrar nuestra comunicación en las personas y en sus relaciones humanas más cercanas.",
+      "tema": "Interrogativos neutros",
+      "explicacion": "Usa estas palabras especiales cuando necesitas pedir información general sobre la apariencia o la personalidad de una persona desconocida.",
+      "ejemplos": {
+        "formato": "dialogo",
+        "items": [
+          {
+            "pregunta": "<strong>¿Cómo</strong> es ella?",
+            "respuesta": "Es alta y rubia."
+          },
+          {
+            "pregunta": "<strong>¿Cómo</strong> son tus amigos?",
+            "respuesta": "Son muy divertidos."
+          },
+          {
+            "pregunta": "<strong>¿Cómo</strong> es el profesor nuevo?",
+            "respuesta": "Es un hombre joven."
+          },
+          {
+            "pregunta": "<strong>¿Cómo</strong> es tu casa nueva?",
+            "respuesta": "Es grande y blanca."
+          }
+        ]
+      },
+      "consejo": "Usa siempre \"cómo\" con tilde para hacer preguntas."
+    },
+    {
+      "id": 14,
+      "categoria": "Géneros discursivos y productos textuales",
+      "tema": "Macrofunción descriptiva",
+      "explicacion": "Esta habilidad te permite unir varias frases para explicar con detalle el aspecto físico de alguien de forma muy ordenada.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Ellos son muy <strong>buenos amigos</strong>.",
-          "<strong>Mi familia</strong> vive en Valencia.",
-          "<strong>Tus compañeros</strong> son muy amables.",
-          "<strong>Nosotros</strong> estamos muy felices."
+          "Es <strong>alta</strong>, <strong>morena</strong> y tiene el pelo <strong>liso</strong>.",
+          "Es <strong>bajo</strong>, <strong>rubio</strong> y tiene los ojos <strong>azules</strong>.",
+          "Ella es <strong>joven</strong>, <strong>delgada</strong> y muy <strong>guapa</strong>.",
+          "Él es <strong>mayor</strong> y tiene barba <strong>blanca</strong>."
         ]
       },
-      "consejo": "Mencionar a las personas ayuda a tener conversaciones más interesantes."
+      "consejo": "Usa comas para separar los diferentes adjetivos que utilices."
     }
   ]
 }
