@@ -405,10 +405,7 @@ function buildDialogo(dialogo, meta, dialogoTrans) {
 
     const audioHtml = meta.audio_dialogo ? `
         <div class="sticky top-4 z-40 flex flex-col items-center mb-10 p-6 bg-white/40 dark:bg-slate-900/60 backdrop-blur-xl rounded-3xl border border-white/30 dark:border-white/10 shadow-2xl">
-            <p class="text-sm font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 mb-4 flex items-center gap-2">
-                <i class="fas fa-headphones" aria-hidden="true"></i>
-                ${labels.audio_dialogo}
-            </p>
+
             <div class="custom-audio-wrapper w-full max-w-md bg-white/30 dark:bg-slate-800/50 rounded-2xl p-3 flex items-center gap-4 shadow-inner border border-white/20">
                 <button class="audio-play-btn w-12 h-12 rounded-full bg-indigo-600 text-white flex items-center justify-center flex-shrink-0 hover:bg-indigo-700 transition shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900" aria-label="Reproducir audio">
                     <i class="fas fa-play ml-1 text-lg" aria-hidden="true"></i>
@@ -448,7 +445,13 @@ function buildDialogo(dialogo, meta, dialogoTrans) {
             <h2 class="text-3xl md:text-4xl font-black text-center mb-2 bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent">
                 ${tituloDialogo}
             </h2>
-            <div class="w-20 h-1.5 bg-gradient-to-r from-indigo-500 to-emerald-500 mx-auto rounded-full mb-10"></div>
+            <div class="w-20 h-1.5 bg-gradient-to-r from-indigo-500 to-emerald-500 mx-auto rounded-full mb-6"></div>
+            ${meta.audio_dialogo ? `
+            <p class="text-sm font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 mb-8 flex items-center justify-center gap-2 text-center">
+                <i class="fas fa-headphones" aria-hidden="true"></i>
+                ${labels.audio_dialogo}
+            </p>
+            ` : ''}
             
             ${audioHtml}
             
