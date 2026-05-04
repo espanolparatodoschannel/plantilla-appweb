@@ -211,15 +211,17 @@ function renderEjemplos(ejemplos, cfg, ejemplosTrans) {
                 ${items.map((i, idx) => {
                     const trans = itemsTrans ? itemsTrans[idx] : null;
                     return `
-                    <div class="space-y-1">
-                        <p class="text-slate-500 dark:text-slate-400 italic flex items-center gap-1">
-                            <span>— ${renderTexto(i.pregunta, trans ? trans.pregunta : null, true)}</span>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start text-slate-500 dark:text-slate-400 italic">
+                            <span class="flex-shrink-0 mt-0.5" aria-hidden="true">—</span>
+                            <span class="flex-1">${renderTexto(i.pregunta, trans ? trans.pregunta : null, true)}</span>
                             ${makeSpeakBtn(i.pregunta)}
-                        </p>
-                        <p class="font-bold text-indigo-600 dark:text-indigo-400 flex items-center gap-1">
-                            <span>→ ${renderTexto(i.respuesta, trans ? trans.respuesta : null, true)}</span>
+                        </div>
+                        <div class="flex gap-2 items-start font-bold text-indigo-600 dark:text-indigo-400">
+                            <span class="flex-shrink-0 mt-0.5" aria-hidden="true">→</span>
+                            <span class="flex-1">${renderTexto(i.respuesta, trans ? trans.respuesta : null, true)}</span>
                             ${makeSpeakBtn(i.respuesta)}
-                        </p>
+                        </div>
                     </div>`;
                 }).join('<hr class="border-white/30">')}
             </div>`;

@@ -244,39 +244,20 @@ body {
     text-decoration-style: dashed;
     text-decoration-color: rgba(79, 70, 229, 0.4);
     text-underline-offset: 4px;
-    display: inline-block;
-    width: 100%;
 }
 
 .ghost-original,
 .ghost-translation {
     transition: all 0.2s ease;
-    display: block;
+    grid-area: 1 / 1;
 }
 
 .ghost-translation {
-    display: none;
+    opacity: 0;
+    pointer-events: none;
     /* WCAG AA: violeta oscuro sobre fondos claros — ratio ~7:1 */
     color: #4338ca;
     font-weight: 600;
-}
-
-/* Estado activo (hover escritorio) */
-@media (hover: hover) {
-    .ghost-container:hover .ghost-original {
-        display: none;
-    }
-    .ghost-container:hover .ghost-translation {
-        display: block;
-    }
-}
-
-/* Estado activo (touch móvil) */
-.ghost-container.touch-active .ghost-original {
-    display: none;
-}
-.ghost-container.touch-active .ghost-translation {
-    display: block;
 }
 
 /* Color en el header oscuro — ratio ~5.5:1 sobre #4f46e5 */
