@@ -67,95 +67,53 @@
 
         <div class="max-w-6xl mx-auto px-4 md:px-8 relative z-10 flex flex-col items-center">
 
-            <!-- ══ FILA 1: Logo | Badge A1 + Toggle (móvil) / Logo | Selector+Badge+Toggle (escritorio) ══ -->
-            <div class="w-full flex items-center justify-between gap-x-2 mb-2 md:mb-4">
+            <!-- ══ FILA ÚNICA: Logo a la izq | Selector a la der ══ -->
+            <div class="w-full flex items-start justify-between gap-x-2 mb-8 md:mb-12">
 
                 <!-- Logo -->
                 <img src="assets/img/Logo Español para todos_transp.png" alt="Español Para Todos — Logo del canal"
-                    class="h-20 md:h-28 brightness-110 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)] flex-shrink-0">
+                    class="h-16 md:h-24 brightness-110 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)] flex-shrink-0 object-contain">
 
-                <!-- Selector de Idiomas + Hint: SOLO ESCRITORIO -->
-                <div class="hidden md:flex flex-col items-center gap-1 flex-shrink-0">
+                <!-- Selector de Idiomas Unificado -->
+                <div class="flex flex-col items-end gap-1.5 flex-shrink-0 mt-2 md:mt-4">
                     <nav aria-label="Idioma de la interfaz">
-                        <div class="h-12 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-1.5 flex items-center gap-1.5 shadow-lg"
+                        <div class="h-10 md:h-12 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-1.5 flex items-center gap-1 md:gap-1.5 shadow-lg"
                             role="group" aria-label="Selecciona tu idioma">
                             <button
-                                class="lang-btn active w-10 h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
+                                class="lang-btn active w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
                                 data-lang="es" aria-label="Español" aria-pressed="true">
                                 <img src="https://flagcdn.com/w40/es.png" alt="" aria-hidden="true"
-                                    class="w-6 h-6 rounded-full object-cover shadow-sm border border-white/20">
+                                    class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
                             </button>
                             <button
-                                class="lang-btn w-10 h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
+                                class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
                                 data-lang="en" aria-label="English" aria-pressed="false">
                                 <img src="https://flagcdn.com/w40/gb.png" alt="" aria-hidden="true"
-                                    class="w-6 h-6 rounded-full object-cover shadow-sm border border-white/20">
+                                    class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
                             </button>
                             <button
-                                class="lang-btn w-10 h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
+                                class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
                                 data-lang="fr" aria-label="Français" aria-pressed="false">
                                 <img src="https://flagcdn.com/w40/fr.png" alt="" aria-hidden="true"
-                                    class="w-6 h-6 rounded-full object-cover shadow-sm border border-white/20">
+                                    class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
                             </button>
                             <button
-                                class="lang-btn w-10 h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
+                                class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
                                 data-lang="pt" aria-label="Português" aria-pressed="false">
                                 <img src="https://flagcdn.com/w40/br.png" alt="" aria-hidden="true"
-                                    class="w-6 h-6 rounded-full object-cover shadow-sm border border-white/20">
+                                    class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
                             </button>
                             <button
-                                class="lang-btn w-10 h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
+                                class="lang-btn w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
                                 data-lang="de" aria-label="Deutsch" aria-pressed="false">
                                 <img src="https://flagcdn.com/w40/de.png" alt="" aria-hidden="true"
-                                    class="w-6 h-6 rounded-full object-cover shadow-sm border border-white/20">
+                                    class="w-5 h-5 md:w-6 md:h-6 rounded-full object-cover shadow-sm border border-white/20">
                             </button>
                         </div>
                     </nav>
-                    <!-- Hint centrado bajo el selector, solo escritorio -->
-                    <p id="touch-hint" class="touch-hint" aria-live="polite"></p>
+                    <!-- Hint centrado bajo el selector -->
+                    <p id="touch-hint" class="touch-hint text-white/90 font-bold" aria-live="polite"></p>
                 </div>
-
-            </div>
-
-            <!-- ══ FILA 2 (solo MÓVIL): Selector centrado + hint ══ -->
-            <div class="flex flex-col items-center gap-1 w-full md:hidden mb-2">
-                <nav aria-label="Idioma de la interfaz (móvil)">
-                    <div class="h-10 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-1.5 flex items-center gap-1 shadow-lg"
-                        role="group" aria-label="Selecciona tu idioma">
-                        <button
-                            class="lang-btn active w-8 h-8 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
-                            data-lang="es" aria-label="Español" aria-pressed="true">
-                            <img src="https://flagcdn.com/w40/es.png" alt="" aria-hidden="true"
-                                class="w-5 h-5 rounded-full object-cover shadow-sm border border-white/20">
-                        </button>
-                        <button
-                            class="lang-btn w-8 h-8 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
-                            data-lang="en" aria-label="English" aria-pressed="false">
-                            <img src="https://flagcdn.com/w40/gb.png" alt="" aria-hidden="true"
-                                class="w-5 h-5 rounded-full object-cover shadow-sm border border-white/20">
-                        </button>
-                        <button
-                            class="lang-btn w-8 h-8 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
-                            data-lang="fr" aria-label="Français" aria-pressed="false">
-                            <img src="https://flagcdn.com/w40/fr.png" alt="" aria-hidden="true"
-                                class="w-5 h-5 rounded-full object-cover shadow-sm border border-white/20">
-                        </button>
-                        <button
-                            class="lang-btn w-8 h-8 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
-                            data-lang="pt" aria-label="Português" aria-pressed="false">
-                            <img src="https://flagcdn.com/w40/br.png" alt="" aria-hidden="true"
-                                class="w-5 h-5 rounded-full object-cover shadow-sm border border-white/20">
-                        </button>
-                        <button
-                            class="lang-btn w-8 h-8 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
-                            data-lang="de" aria-label="Deutsch" aria-pressed="false">
-                            <img src="https://flagcdn.com/w40/de.png" alt="" aria-hidden="true"
-                                class="w-5 h-5 rounded-full object-cover shadow-sm border border-white/20">
-                        </button>
-                    </div>
-                </nav>
-                <!-- Pista solo móvil: misma función que touch-hint, actualizada por JS -->
-                <p id="touch-hint-mobile" class="touch-hint" aria-live="polite"></p>
             </div>
 
             <!-- Contenido Central -->
