@@ -77,7 +77,7 @@
                     class="h-16 md:h-24 brightness-110 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)] flex-shrink-0 object-contain">
 
                 <!-- Selector de Idiomas Unificado -->
-                <div class="flex flex-col items-end gap-1.5 flex-shrink-0 mt-2 md:mt-4">
+                <div class="flex flex-col items-end gap-1.5 flex-shrink-0 mt-2 md:mt-4 relative">
                     <nav aria-label="Idioma de la interfaz">
                         <div class="h-10 md:h-12 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-1.5 flex items-center gap-1 md:gap-1.5 shadow-lg"
                             role="group" aria-label="Selecciona tu idioma">
@@ -113,8 +113,10 @@
                             </button>
                         </div>
                     </nav>
-                    <!-- Hint centrado bajo el selector -->
-                    <p id="touch-hint" class="touch-hint text-white/90 font-bold" aria-live="polite"></p>
+                    <!-- Hint: Posición absoluta para evitar saltos de layout cuando el texto es largo (ej. Alemán) -->
+                    <div class="h-4 w-full relative">
+                        <p id="touch-hint" class="touch-hint text-[10px] md:text-xs text-white/90 font-bold absolute right-0 top-0 whitespace-nowrap flex items-center gap-1.5" aria-live="polite"></p>
+                    </div>
                 </div>
             </div>
 
