@@ -13,6 +13,16 @@
     --accent-light:   #fbbf24;
     --danger:         #e11d48;
     --danger-light:   #f43f5e;
+    --info:           #0ea5e9;
+    --info-light:     #38bdf8;
+    --violet:         #8b5cf6;
+    --violet-light:   #a78bfa;
+    --teal:           #14b8a6;
+    --teal-light:     #5eead4;
+    --pink:           #ec4899;
+    --pink-light:     #f472b6;
+    --orange:         #f97316;
+    --orange-light:   #fb923c;
     --bg-page:        #f0f2f5;
     --text-main:      #1e293b;
 }
@@ -84,6 +94,21 @@ body {
 }
 .card-gradient-4 {
     background: linear-gradient(135deg, var(--danger-light) 0%, var(--danger) 100%);
+}
+.card-gradient-5 {
+    background: linear-gradient(135deg, var(--info-light) 0%, var(--info) 100%);
+}
+.card-gradient-6 {
+    background: linear-gradient(135deg, var(--violet-light) 0%, var(--violet) 100%);
+}
+.card-gradient-7 {
+    background: linear-gradient(135deg, var(--teal-light) 0%, var(--teal) 100%);
+}
+.card-gradient-8 {
+    background: linear-gradient(135deg, var(--pink-light) 0%, var(--pink) 100%);
+}
+.card-gradient-9 {
+    background: linear-gradient(135deg, var(--orange-light) 0%, var(--orange) 100%);
 }
 
 /* =============================================

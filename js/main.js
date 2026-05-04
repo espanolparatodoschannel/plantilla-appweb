@@ -25,24 +25,24 @@ const CATEGORIA = {
         bg: 'bg-rose-50 dark:bg-rose-900/20', border: 'border-rose-100 dark:border-rose-800', icono: 'fas fa-volume-up'
     },
     'Nociones generales': {
-        gradient: 'card-gradient-1', badge: 'text-indigo-600 dark:text-indigo-400',
-        bg: 'bg-indigo-50 dark:bg-indigo-900/20', border: 'border-indigo-100 dark:border-indigo-800', icono: 'fas fa-lightbulb'
+        gradient: 'card-gradient-7', badge: 'text-teal-600 dark:text-teal-400',
+        bg: 'bg-teal-50 dark:bg-teal-900/20', border: 'border-teal-100 dark:border-teal-800', icono: 'fas fa-lightbulb'
     },
     'Nociones específicas': {
-        gradient: 'card-gradient-2', badge: 'text-emerald-600 dark:text-emerald-400',
-        bg: 'bg-emerald-50 dark:bg-emerald-900/20', border: 'border-emerald-100 dark:border-emerald-800', icono: 'fas fa-tag'
+        gradient: 'card-gradient-5', badge: 'text-sky-600 dark:text-sky-400',
+        bg: 'bg-sky-50 dark:bg-sky-900/20', border: 'border-sky-100 dark:border-sky-800', icono: 'fas fa-tag'
     },
     'Tácticas y estrategias pragmáticas': {
-        gradient: 'card-gradient-3', badge: 'text-amber-600 dark:text-amber-400',
-        bg: 'bg-amber-50 dark:bg-amber-900/20', border: 'border-amber-100 dark:border-amber-800', icono: 'fas fa-chess'
+        gradient: 'card-gradient-6', badge: 'text-violet-600 dark:text-violet-400',
+        bg: 'bg-violet-50 dark:bg-violet-900/20', border: 'border-violet-100 dark:border-violet-800', icono: 'fas fa-chess'
     },
     'Géneros discursivos y productos textuales': {
-        gradient: 'card-gradient-4', badge: 'text-rose-600 dark:text-rose-400',
-        bg: 'bg-rose-50 dark:bg-rose-900/20', border: 'border-rose-100 dark:border-rose-800', icono: 'fas fa-file-alt'
+        gradient: 'card-gradient-8', badge: 'text-pink-600 dark:text-pink-400',
+        bg: 'bg-pink-50 dark:bg-pink-900/20', border: 'border-pink-100 dark:border-pink-800', icono: 'fas fa-file-alt'
     },
     'Objetivos generales': {
-        gradient: 'card-gradient-3', badge: 'text-amber-600 dark:text-amber-400',
-        bg: 'bg-amber-50 dark:bg-amber-900/20', border: 'border-amber-100 dark:border-amber-800', icono: 'fas fa-globe'
+        gradient: 'card-gradient-9', badge: 'text-orange-600 dark:text-orange-400',
+        bg: 'bg-orange-50 dark:bg-orange-900/20', border: 'border-orange-100 dark:border-orange-800', icono: 'fas fa-globe'
     }
 };
 
