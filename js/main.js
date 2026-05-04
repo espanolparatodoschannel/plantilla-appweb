@@ -246,7 +246,7 @@ function renderEjemplos(ejemplos, cfg, ejemplosTrans) {
 function buildFicha(ficha, index, fichaTrans) {
     const cfg = CATEGORIA[ficha.categoria] || DEFAULT_CFG;
     const labelCategoria = renderTexto(ficha.categoria, fichaTrans ? fichaTrans.categoria : null, true);
-    const label = `${ficha.id}. ${labelCategoria}`;
+    const label = `<span class="flex-shrink-0">${ficha.id}.</span><span class="flex-1">${labelCategoria}</span>`;
     const labels = LABELS[currentLang] || LABELS.es;
 
     const vocabularioHtml = ficha.vocabulario_util ?
@@ -263,7 +263,7 @@ function buildFicha(ficha, index, fichaTrans) {
                  aria-label="Ficha ${ficha.id}: ${ficha.tema}">
             <div class="p-1 ${cfg.gradient}" aria-hidden="true"></div>
             <div class="p-6 md:p-8">
-                <span class="text-xs font-bold uppercase tracking-widest ${cfg.badge} mb-2 block">${label}</span>
+                <div class="text-xs font-bold uppercase tracking-widest ${cfg.badge} mb-2 flex items-start gap-1">${label}</div>
                 <h2 class="text-2xl font-bold mb-2 text-slate-800 dark:text-white">${renderTexto(ficha.tema, fichaTrans ? fichaTrans.tema : null, false)}</h2>
                 <p class="mb-4 text-slate-700 dark:text-slate-300 leading-relaxed text-base">${renderTexto(ficha.explicacion, fichaTrans ? fichaTrans.explicacion : null, false)}</p>
                 ${renderEjemplos(ficha.ejemplos, cfg, fichaTrans ? fichaTrans.ejemplos : null)}
