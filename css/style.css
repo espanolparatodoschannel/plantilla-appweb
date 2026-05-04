@@ -31,15 +31,12 @@
    ESTILOS BASE
    ============================================= */
 html {
-    overflow-x: clip;
-    overflow-y: scroll; /* Fuerza la barra de scroll en escritorio */
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--bg-page);
-    overflow-x: clip;
-    overflow-y: auto;
     -webkit-tap-highlight-color: transparent;
 }
 
