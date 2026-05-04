@@ -1,248 +1,286 @@
 {
   "meta": {
-    "titulo_pagina": "Guía A1: Describir Personas en Español",
-    "titulo_hero": "Aprende a describir a las personas",
-    "objetivo": "Identifica rasgos físicos, usa adjetivos y confirma información.",
-    "video_label": "Video: La cita a ciegas",
-    "video_url": "https://espanolparatodoschannel.github.io/ni.2_El_Mercado_de_los_Recuerdos_Olvidados/",
-    "ilustracion": "ele_a1_people_illustration_1777403668192.png"
+    "titulo_pagina": "Guía A1: Primeros Contactos y Presentaciones",
+    "titulo_hero": "¡Aprende a presentarte en español!",
+    "objetivo": "Aprenderás a saludar, identificarte y deletrear tu nombre correctamente en situaciones cotidianas.",
+    "video_label": "Video: El primer día de clase",
+    "video_url": "https://youtu.be/rzruErCtThA?si=Y6LjAspRzHR5-9A3",
+    "audio_dialogo": "assets/audio/dialogo_completo.mp3"
   },
   "fichas": [
     {
       "id": 1,
       "categoria": "Funciones",
-      "tema": "Pedir confirmación",
-      "explicacion": "Utiliza estas expresiones cortas cuando necesitas asegurar que la información recibida sobre una persona es totalmente correcta y verídica.",
+      "tema": "Saludar",
+      "explicacion": "Estas expresiones sirven para iniciar un contacto amable con otras personas en diferentes momentos del día o la noche.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "¿Buscamos a una mujer alta, <strong>¿verdad?</strong>",
-          "Él es tu hermano, <strong>¿verdad?</strong>",
-          "¿Tus ojos son verdes, <strong>¿no?</strong>",
-          "Usted es el profesor, <strong>¿verdad?</strong>"
+          "¡<strong>Hola</strong>! ¿Cómo estás hoy?",
+          "¡<strong>Buenos días</strong>! ¿Qué tal?",
+          "¡<strong>Buenas tardes</strong>! ¿Cómo va todo?",
+          "<strong>Hola</strong>, ¿qué pasa, compañero?"
         ]
       },
-      "consejo": "Usa \"¿verdad?\" al final de la frase para preguntar."
+      "consejo": "Usa \"Hola\" a cualquier hora del día."
     },
     {
       "id": 2,
       "categoria": "Funciones",
-      "tema": "Confirmar la información previa",
-      "explicacion": "Sirve para responder de forma positiva cuando otra persona te pregunta si los datos que tiene son realmente ciertos.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "<strong>Sí, confirmo</strong>. Es Elena.",
-          "<strong>Exacto</strong>, ella es mi madre.",
-          "<strong>Así es</strong>, busco a Manuel.",
-          "<strong>Sí</strong>, tienes la información correcta."
-        ]
-      },
-      "consejo": "\"Sí, confirmo\" es una forma formal y clara de responder."
-    },
-    {
-      "id": 3,
-      "categoria": "Gramática",
-      "tema": "Adjetivos calificativos",
-      "explicacion": "Estas palabras son muy útiles porque sirven para explicar las cualidades o las características físicas de las personas y objetos.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Ella es una mujer <strong>alta</strong>.",
-          "Mi amigo es muy <strong>simpático</strong>.",
-          "El coche es <strong>rápido</strong>.",
-          "Tu casa es <strong>bonita</strong>."
-        ]
-      },
-      "consejo": "Los adjetivos ayudan a crear una imagen en la mente."
-    },
-    {
-      "id": 4,
-      "categoria": "Gramática",
-      "tema": "Adjetivos relacionales",
-      "explicacion": "Son palabras que clasifican al objeto dentro de un grupo o tipo específico para diferenciarlo de otros muy parecidos.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Lleva las gafas <strong>rojas</strong>.",
-          "Es una decisión <strong>familiar</strong>.",
-          "El coche <strong>eléctrico</strong> es azul.",
-          "Prefiero la música <strong>clásica</strong>."
-        ]
-      },
-      "consejo": "Estos adjetivos no suelen aceptar palabras como \"muy\"."
-    },
-    {
-      "id": 5,
-      "categoria": "Gramática",
-      "tema": "El género del adjetivo",
-      "explicacion": "Debes cambiar la letra final del adjetivo dependiendo de si hablas de un hombre o de una mujer siempre.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Él es <strong>moreno</strong>.",
-          "Ella es <strong>morena</strong>.",
-          "El chico es <strong>alto</strong>.",
-          "La chica es <strong>alta</strong>."
-        ]
-      },
-      "consejo": "Si el adjetivo termina en -o, cámbialo a -a."
-    },
-    {
-      "id": 6,
-      "categoria": "Gramática",
-      "tema": "El número del adjetivo",
-      "explicacion": "Cuando hablas de más de una persona o cosa, es necesario añadir una letra ese al final del adjetivo.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Tiene los ojos <strong>negros</strong>.",
-          "Mis amigos son <strong>altos</strong>.",
-          "Las casas son <strong>blancas</strong>.",
-          "Ellos están <strong>contentos</strong>."
-        ]
-      },
-      "consejo": "El adjetivo y el nombre siempre deben ir iguales."
-    },
-    {
-      "id": 7,
-      "categoria": "Gramática",
-      "tema": "Posición del adjetivo",
-      "explicacion": "En el idioma español, normalmente escribimos la palabra que describe después del nombre para que la frase sea correcta.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Tiene el pelo <strong>largo</strong>.",
-          "Es un libro <strong>interesante</strong>.",
-          "Busco una mesa <strong>pequeña</strong>.",
-          "Es un perro <strong>bueno</strong>."
-        ]
-      },
-      "consejo": "Pon el adjetivo después del objeto que quieres describir."
-    },
-    {
-      "id": 8,
-      "categoria": "Nociones específicas",
-      "tema": "Partes del cuerpo",
-      "explicacion": "Aprender los nombres de las zonas físicas es fundamental para poder explicar cómo es el aspecto de cualquier persona.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Tiene los <strong>ojos</strong> muy grandes.",
-          "Mi <strong>pelo</strong> es muy corto.",
-          "Tu <strong>nariz</strong> es pequeña.",
-          "Sus <strong>manos</strong> son largas."
-        ]
-      },
-      "consejo": "Usa el verbo \"tener\" para describir las partes físicas."
-    },
-    {
-      "id": 9,
-      "categoria": "Nociones específicas",
-      "tema": "Características físicas",
-      "explicacion": "Utilizamos este vocabulario específico para definir la apariencia general de la gente de una manera muy sencilla y rápida.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Ella es <strong>delgada</strong>.",
-          "Mi abuelo es <strong>mayor</strong>.",
-          "El niño es <strong>bajo</strong>.",
-          "Nosotros somos <strong>jóvenes</strong>."
-        ]
-      },
-      "consejo": "Puedes usar el verbo \"ser\" para estas descripciones generales."
-    },
-    {
-      "id": 10,
-      "categoria": "Nociones específicas",
-      "tema": "Sexo",
-      "explicacion": "Es importante conocer las palabras básicas para distinguir si la persona de la que hablamos es un hombre o mujer.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Busco a una <strong>chica</strong> para la entrevista.",
-          "Ese <strong>hombre</strong> es mi padre.",
-          "La <strong>mujer</strong> es muy alta.",
-          "El <strong>chico</strong> es mi amigo."
-        ]
-      },
-      "consejo": "\"Hombre\" y \"mujer\" son palabras básicas en nivel A1."
-    },
-    {
-      "id": 11,
-      "categoria": "Ortografía",
-      "tema": "Palabras de doble escritura",
-      "explicacion": "Existen algunas palabras especiales en español que se pueden escribir de dos formas diferentes y ambas son totalmente correctas.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "Su pelo es castaño <strong>oscuro</strong>.",
-          "Su pelo es castaño <strong>obscuro</strong>.",
-          "El <strong>setiembre</strong> es mi mes.",
-          "El <strong>septiembre</strong> es mi mes."
-        ]
-      },
-      "consejo": "La forma sin la letra \"b\" es más común."
-    },
-    {
-      "id": 12,
-      "categoria": "Ortografía",
-      "tema": "Tilde diacrítica",
-      "explicacion": "Usamos un acento gráfico pequeño para diferenciar dos palabras que se escriben igual pero tienen significados muy diferentes entre sí.",
-      "ejemplos": {
-        "formato": "lista",
-        "items": [
-          "<strong>Él</strong> es mi hermano mayor.",
-          "<strong>El</strong> pelo es de color negro.",
-          "<strong>Tú</strong> eres una persona amable.",
-          "<strong>Tu</strong> libro está en la mesa."
-        ]
-      },
-      "consejo": "\"Él\" con tilde siempre se refiere a una persona."
-    },
-    {
-      "id": 13,
-      "categoria": "Tácticas y estrategias pragmáticas",
-      "tema": "Interrogativos neutros",
-      "explicacion": "Usa estas palabras especiales cuando necesitas pedir información general sobre la apariencia o la personalidad de una persona desconocida.",
+      "tema": "Responder a un saludo",
+      "explicacion": "Utilizamos estas frases sencillas para reaccionar cuando alguien nos saluda y queremos continuar con la conversación de forma educada.",
       "ejemplos": {
         "formato": "dialogo",
         "items": [
           {
-            "pregunta": "<strong>¿Cómo</strong> es ella?",
-            "respuesta": "Es alta y rubia."
+            "pregunta": "¡Hola! ¿Qué tal?",
+            "respuesta": "Hola, <strong>bien</strong>, ¿y tú?"
           },
           {
-            "pregunta": "<strong>¿Cómo</strong> son tus amigos?",
-            "respuesta": "Son muy divertidos."
-          },
-          {
-            "pregunta": "<strong>¿Cómo</strong> es el profesor nuevo?",
-            "respuesta": "Es un hombre joven."
-          },
-          {
-            "pregunta": "<strong>¿Cómo</strong> es tu casa nueva?",
-            "respuesta": "Es grande y blanca."
+            "pregunta": "Buenos días.",
+            "respuesta": "<strong>Buenos días</strong>. Todo genial."
           }
         ]
       },
-      "consejo": "Usa siempre \"cómo\" con tilde para hacer preguntas."
+      "consejo": "Devuelve la pregunta con un \"¿Y tú?\"."
     },
     {
-      "id": 14,
-      "categoria": "Géneros discursivos y productos textuales",
-      "tema": "Macrofunción descriptiva",
-      "explicacion": "Esta habilidad te permite unir varias frases para explicar con detalle el aspecto físico de alguien de forma muy ordenada.",
+      "id": 3,
+      "categoria": "Funciones",
+      "tema": "Identificar",
+      "explicacion": "Usamos estas estructuras básicas para decir quiénes somos o indicar nuestro nombre personal ante personas que no nos conocen.",
       "ejemplos": {
         "formato": "lista",
         "items": [
-          "Es <strong>alta</strong>, <strong>morena</strong> y tiene el pelo <strong>liso</strong>.",
-          "Es <strong>bajo</strong>, <strong>rubio</strong> y tiene los ojos <strong>azules</strong>.",
-          "Ella es <strong>joven</strong>, <strong>delgada</strong> y muy <strong>guapa</strong>.",
-          "Él es <strong>mayor</strong> y tiene barba <strong>blanca</strong>."
+          "Yo <strong>soy</strong> Mateo.",
+          "Mi nombre <strong>es</strong> Elena.",
+          "Él <strong>es</strong> el profesor.",
+          "Nosotros <strong>somos</strong> los nuevos."
         ]
       },
-      "consejo": "Usa comas para separar los diferentes adjetivos que utilices."
+      "consejo": "Usa el verbo \"ser\" para identificarte."
+    },
+    {
+      "id": 4,
+      "categoria": "Funciones",
+      "tema": "Dirigirse a alguien",
+      "explicacion": "Estas palabras cortas ayudan a captar la atención de otra persona cuando queremos empezar a hablar con ella directamente.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "¡<strong>Oye</strong>! ¿Eres el nuevo?",
+          "<strong>Perdona</strong>, ¿cómo te llamas?",
+          "<strong>Mira</strong>, allí está el profesor.",
+          "<strong>Disculpa</strong>, ¿tienes un bolígrafo?"
+        ]
+      },
+      "consejo": "Usa \"Perdona\" para interrumpir con cortesía."
+    },
+    {
+      "id": 5,
+      "categoria": "Funciones",
+      "tema": "Responder a una presentación",
+      "explicacion": "Son frases de cortesía que usamos inmediatamente después de conocer a una persona nueva para mostrar nuestra alegría y amabilidad.",
+      "ejemplos": {
+        "formato": "dialogo",
+        "items": [
+          {
+            "pregunta": "Yo soy Mateo.",
+            "respuesta": "¡<strong>Mucho gusto</strong>, Mateo!"
+          },
+          {
+            "pregunta": "Me llamo Elena.",
+            "respuesta": "<strong>Encantado de conocerte</strong>."
+          }
+        ]
+      },
+      "consejo": "Encantado cambia a Encantada si eres mujer."
+    },
+    {
+      "id": 6,
+      "categoria": "Gramática",
+      "tema": "Nombres propios",
+      "explicacion": "Son las palabras especiales que utilizamos para llamar a las personas, diferenciarlas de las demás y darles una identidad única.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Yo me llamo <strong>Elena</strong>.",
+          "Mi compañero es <strong>Mateo</strong>.",
+          "Ella se llama <strong>Lucía</strong>.",
+          "¿Tu nombre es <strong>Pablo</strong>?"
+        ]
+      },
+      "consejo": "Los nombres siempre llevan mayúscula inicial."
+    },
+    {
+      "id": 7,
+      "categoria": "Gramática",
+      "tema": "Pronombre sujeto",
+      "explicacion": "Son términos breves que sirven para indicar quién realiza la acción o quién está hablando en una frase muy sencilla.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "<strong>Yo</strong> soy el estudiante.",
+          "¿Y <strong>tú</strong> cómo estás?",
+          "<strong>Nosotros</strong> somos compañeros ahora.",
+          "<strong>Ella</strong> es muy simpática."
+        ]
+      },
+      "consejo": "A veces no es necesario usar el pronombre."
+    },
+    {
+      "id": 8,
+      "categoria": "Gramática",
+      "tema": "Presente",
+      "explicacion": "Este tiempo verbal básico sirve para comunicar acciones que ocurren en el momento actual o para describir estados personales presentes.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Yo <strong>estoy</strong> muy bien.",
+          "Nosotros <strong>somos</strong> compañeros hoy.",
+          "Elena <strong>está</strong> en la clase.",
+          "¿Tú <strong>eres</strong> el nuevo?"
+        ]
+      },
+      "consejo": "Domina los verbos ser y estar primero."
+    },
+    {
+      "id": 9,
+      "categoria": "Nociones específicas",
+      "tema": "Nombre",
+      "explicacion": "Se refiere al vocabulario relacionado con nuestra identidad oficial y cómo nos llaman las personas en nuestro entorno social cotidiano.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "¿Cómo se escribe tu <strong>nombre</strong>?",
+          "Mi <strong>apellido</strong> es García.",
+          "¿Cuál es tu <strong>nombre</strong>?",
+          "El <strong>nombre</strong> es muy bonito."
+        ]
+      },
+      "consejo": "Practica deletrear tu propio nombre."
+    },
+    {
+      "id": 10,
+      "categoria": "Ortografía",
+      "tema": "El abecedario",
+      "explicacion": "Es el conjunto de letras que usamos para formar palabras y que nos permite deletrear nombres propios de forma correcta.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "Se escribe con <strong>eme</strong>.",
+          "Tu nombre tiene una <strong>hache</strong>.",
+          "Elena empieza con la <strong>e</strong>.",
+          "Mi nombre lleva la <strong>te</strong>."
+        ]
+      },
+      "consejo": "Las vocales en español siempre suenan igual."
+    },
+    {
+      "id": 11,
+      "categoria": "Ortografía",
+      "tema": "Letras mayúsculas",
+      "explicacion": "Son letras más grandes que se colocan al inicio de los nombres propios para indicar que son nombres de personas.",
+      "ejemplos": {
+        "formato": "lista",
+        "items": [
+          "El nombre es <strong>M</strong>ateo.",
+          "Mi amiga es <strong>E</strong>lena.",
+          "Me llamo <strong>L</strong>ucía.",
+          "Hoy es <strong>L</strong>unes."
+        ]
+      },
+      "consejo": "Usa mayúsculas solo cuando sea necesario."
+    }
+  ],
+  "dialogo": [
+    {
+      "personaje": "Mateo",
+      "texto": "¡Hola! Buenos días."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Hola, buenos días. ¿Qué tal?"
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Muy bien, gracias. ¿Y tú?"
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Yo estoy muy bien también."
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Ah, yo soy Mateo. ¿Cómo te llamas?"
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Mucho gusto, Mateo. Yo me llamo Elena."
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "El gusto es mío, Elena."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Perdona, ¿cómo se escribe tu nombre?"
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Es fácil. Se escribe con eme, a, te, e, o. Mateo."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "¡Ah! M-A-T-E-O. Entiendo."
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Sí, exacto. ¿Y tu nombre? ¿Es con \"hache\"?"
+    },
+    {
+      "personaje": "Elena",
+      "texto": "No, Elena es con e, ele, e, ene, a. Sin hache."
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Elena, un nombre muy bonito."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Gracias. Oye, ¿eres el estudiante nuevo de español?"
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Sí, yo soy el nuevo. Es mi primer día."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "¡Qué bien! Yo también estoy en la clase de nivel A1."
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "¡Perfecto! Entonces somos compañeros."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Sí. Mira, allí está el profesor."
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Es verdad. Bueno, encantado de conocerte."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Igualmente, Mateo. Entramos, ¿vale?"
+    },
+    {
+      "personaje": "Mateo",
+      "texto": "Sí, claro. Hasta ahora."
+    },
+    {
+      "personaje": "Elena",
+      "texto": "Hasta luego."
     }
   ]
 }

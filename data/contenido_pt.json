@@ -1,220 +1,286 @@
 {
     "meta": {
-        "titulo_pagina": "Guia A1: Descrever Pessoas em Espanhol",
-        "titulo_hero": "Aprenda a descrever as pessoas",
-        "objetivo": "Identifique traços físicos, use adjetivos e confirme informações.",
-        "video_label": "Vídeo: O encontro às cegas",
-        "video_url": "https://espanolparatodoschannel.github.io/ni.2_El_Mercado_de_los_Recuerdos_Olvidados/",
-        "ilustracion": "ele_a1_people_illustration_1777403668192.png"
+        "titulo_pagina": "Guia A1: Primeiros Contatos e Apresentações",
+        "titulo_hero": "Aprenda a se apresentar em espanhol!",
+        "objetivo": "Você vai aprender a cumprimentar, se identificar e soletrar seu nome corretamente em situações cotidianas.",
+        "video_label": "Vídeo: O primeiro dia de aula",
+        "video_url": "https://youtu.be/rzruErCtThA?si=Y6LjAspRzHR5-9A3",
+        "audio_dialogo": "assets/audio/dialogo_completo.mp3"
     },
     "fichas": [
         {
             "id": 1,
             "categoria": "Funções",
-            "tema": "Dirigir-se a alguém",
-            "explicacion": "Essas expressões servem para chamar a atenção de outra pessoa usando o nome próprio dela de um jeito bem natural.",
+            "tema": "Cumprimentar",
+            "explicacion": "Estas expressões servem para iniciar um contato amável com outras pessoas em diferentes momentos do dia ou da noite.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Oi, <strong>Elena</strong>!",
-                    "Com licença, <strong>Juan</strong>, você tem horas?",
-                    "Escuta, <strong>Pablo</strong>, olha isso.",
-                    "Bom dia, <strong>Senhora García</strong>."
+                    "<strong>Olá</strong>! Como você está hoje?",
+                    "<strong>Bom dia</strong>! Tudo bem?",
+                    "<strong>Boa tarde</strong>! Como vai tudo?",
+                    "<strong>Oi</strong>, o que está pegando, colega?"
                 ]
             },
-            "consejo": "Use o nome da pessoa para ser mais gentil."
+            "consejo": "Use \"Hola\" em qualquer hora do dia."
         },
         {
             "id": 2,
             "categoria": "Funções",
-            "tema": "Apresentar alguém",
-            "explicacion": "Use estas frases simples para apresentar uma pessoa nova aos seus amigos ou aos seus colegas de trabalho.",
+            "tema": "Responder a um cumprimento",
+            "explicacion": "Utilizamos estas frases simples para reagir quando alguém nos cumprimenta e queremos continuar a conversa de forma educada.",
             "ejemplos": {
-                "formato": "lista",
+                "formato": "dialogo",
                 "items": [
-                    "Te <strong>apresento</strong> a minha amiga Lucía.",
-                    "Este <strong>é</strong> o meu irmão Carlos.",
-                    "Te <strong>apresento</strong> o meu professor.",
-                    "Esta <strong>é</strong> a minha colega María."
+                    {
+                        "pregunta": "Olá! Tudo bem?",
+                        "respuesta": "Olá, <strong>bem</strong>, e você?"
+                    },
+                    {
+                        "pregunta": "Bom dia.",
+                        "respuesta": "<strong>Bom dia</strong>. Tudo ótimo."
+                    }
                 ]
             },
-            "consejo": "Use \"te presento\" em situações com amigos e familiares."
+            "consejo": "Retribua a pergunta com um \"¿Y tú?\"."
         },
         {
             "id": 3,
             "categoria": "Funções",
-            "tema": "Responder a uma apresentação",
-            "explicacion": "São palavras de cortesia muito importantes que você deve dizer logo depois de conhecer uma pessoa pela primeira vez.",
+            "tema": "Identificar",
+            "explicacion": "Usamos estas estruturas básicas para dizer quem somos ou indicar nosso nome pessoal para pessoas que não nos conhecem.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Muito <strong>prazer</strong>!",
-                    "<strong>Encantado</strong> em te conhecer.",
-                    "É um <strong>prazer</strong>.",
-                    "Igualmente, muito <strong>obrigado</strong>."
+                    "Eu <strong>sou</strong> o Mateo.",
+                    "Meu nome <strong>é</strong> Elena.",
+                    "Ele <strong>é</strong> o professor.",
+                    "Nós <strong>somos</strong> os novos."
                 ]
             },
-            "consejo": "“Encantado” é para homens e “Encantada” para mulheres."
+            "consejo": "Use o verbo \"ser\" para se identificar."
         },
         {
             "id": 4,
-            "categoria": "Gramática",
-            "tema": "O artigo definido",
-            "explicacion": "Usamos estas palavrinhas na frente dos nomes para falar sobre coisas ou pessoas que já conhecemos muito bem.",
+            "categoria": "Funções",
+            "tema": "Dirigir-se a alguém",
+            "explicacion": "Estas palavras curtas ajudam a chamar a atenção de outra pessoa quando queremos começar a falar com ela diretamente.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "<strong>O</strong> cabelo da Lucía é comprido.",
-                    "<strong>A</strong> casa do meu amigo é grande.",
-                    "<strong>Os</strong> livros estão na mesa.",
-                    "<strong>As</strong> meninas são muito simpáticas."
+                    "<strong>Ei</strong>! Você é o novo?",
+                    "<strong>Com licença</strong>, como você se chama?",
+                    "<strong>Olha</strong>, ali está o professor.",
+                    "<strong>Desculpe</strong>, você tem uma caneta?"
                 ]
             },
-            "consejo": "O artigo deve ser igual ao nome em gênero e número."
+            "consejo": "Use \"Perdona\" para interromper com educação."
         },
         {
             "id": 5,
-            "categoria": "Gramática",
-            "tema": "O artigo indefinido",
-            "explicacion": "Estas palavras servem para apresentar informações novas ou para falar de uma coisa entre muitas outras de forma geral.",
+            "categoria": "Funções",
+            "tema": "Responder a uma apresentação",
+            "explicacion": "São frases de cortesia que usamos logo após conhecer uma pessoa nova para mostrar nossa alegria e simpatia.",
             "ejemplos": {
-                "formato": "lista",
+                "formato": "dialogo",
                 "items": [
-                    "Ele é <strong>um</strong> menino muito alto.",
-                    "Ela tem <strong>uma</strong> amiga espanhola.",
-                    "Tenho <strong>uns</strong> livros na minha casa.",
-                    "Tem <strong>umas</strong> fotos na mesa."
+                    {
+                        "pregunta": "Eu sou o Mateo.",
+                        "respuesta": "<strong>Muito prazer</strong>, Mateo!"
+                    },
+                    {
+                        "pregunta": "Eu me chamo Elena.",
+                        "respuesta": "<strong>Encantado em conhecer você</strong>."
+                    }
                 ]
             },
-            "consejo": "Usa \"un\" para masculino e \"una\" para feminino singular."
+            "consejo": "\"Encantado\" muda para \"Encantada\" se você for mulher."
         },
         {
             "id": 6,
             "categoria": "Gramática",
-            "tema": "Concordância",
-            "explicacion": "Em espanhol, o gênero e o número das palavras devem ser sempre iguais dentro de uma mesma frase.",
+            "tema": "Nomes próprios",
+            "explicacion": "São as palavras especiais que utilizamos para chamar as pessoas, diferenciá-las das demais e dar a elas uma identidade única.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Ela é <strong>morena</strong>.",
-                    "Eles são <strong>altos</strong>.",
-                    "As casas são <strong>brancas</strong>.",
-                    "O menino é <strong>simpático</strong>."
+                    "Eu me chamo <strong>Elena</strong>.",
+                    "Meu colega é o <strong>Mateo</strong>.",
+                    "Ela se chama <strong>Lucía</strong>.",
+                    "Seu nome é <strong>Pablo</strong>?"
                 ]
             },
-            "consejo": "Si el nombre es femenino, el adjetivo también termina en -a."
+            "consejo": "Os nomes sempre levam letra maiúscula no início."
         },
         {
             "id": 7,
-            "categoria": "Noções gerais",
-            "tema": "Existência",
-            "explicacion": "Utilizamos esta forma verbal para indicar que um objeto ou uma pessoa está presente em um lugar determinado atualmente.",
+            "categoria": "Gramática",
+            "tema": "Pronome sujeito",
+            "explicacion": "São termos breves que servem para indicar quem realiza a ação ou quem está falando em uma frase muito simples.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Aqui <strong>tem</strong> uma foto do meu amigo.",
-                    "Na minha sala <strong>tem</strong> dez alunos.",
-                    "<strong>Tem</strong> um banheiro por aqui perto?",
-                    "Na mesa <strong>tem</strong> uma caneta."
+                    "<strong>Eu</strong> sou o estudante.",
+                    "E <strong>você</strong>, como está?",
+                    "<strong>Nós</strong> somos colegas agora.",
+                    "<strong>Ela</strong> é muito simpática."
                 ]
             },
-            "consejo": "La palabra \"hay\" nunca cambia, siempre se escribe igual."
+            "consejo": "Às vezes não é necessário usar o pronombre."
         },
         {
             "id": 8,
-            "categoria": "Noções específicas",
-            "tema": "Nacionalidade",
-            "explicacion": "Use estas palavras depois do verbo ser para explicar de qual país ou de qual lugar do mundo você é.",
+            "categoria": "Gramática",
+            "tema": "Presente",
+            "explicacion": "Este tempo verbal básico serve para comunicar ações que ocorrem no momento atual ou para descrever estados pessoais presentes.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Ele é <strong>espanhol</strong>.",
-                    "Nós somos <strong>mexicanos</strong>.",
-                    "Ela é <strong>francesa</strong>.",
-                    "Eu sou <strong>italiano</strong>."
+                    "Eu <strong>estou</strong> muito bem.",
+                    "Nós <strong>somos</strong> colegas hoje.",
+                    "A Elena <strong>está</strong> na aula.",
+                    "Você <strong>é</strong> o novo?"
                 ]
             },
-            "consejo": "Las nacionalidades en español se escriben con letra minúscula."
+            "consejo": "Domine os verbos \"ser\" e \"estar\" primeiro."
         },
         {
             "id": 9,
-            "categoria": "Pronúncia e prosódia",
-            "tema": "Segmentação",
-            "explicacion": "É fundamental separar os grupos de palavras com pausas pequenas para que os outros consigam entender melhor a sua mensagem.",
+            "categoria": "Noções específicas",
+            "tema": "Nome",
+            "explicacion": "Refere-se ao vocabulário relacionado com a nossa identidade oficial e como as pessoas nos chamam no nosso ambiente social cotidiano.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Não, Elena. <strong>[pausa]</strong> Ela tem estatura média.",
-                    "Sim, <strong>[pausa]</strong> sou da Espanha.",
-                    "Oi, <strong>[pausa]</strong> meu nome é Pedro.",
-                    "Meu amigo é alto, <strong>[pausa]</strong> loiro e simpático."
+                    "Como se escreve seu <strong>nome</strong>?",
+                    "Meu <strong>sobrenome</strong> é García.",
+                    "Qual é o seu <strong>nome</strong>?",
+                    "O <strong>nome</strong> é muito bonito."
                 ]
             },
-            "consejo": "Respire brevemente em cada vírgula para soar mais natural."
+            "consejo": "Pratique soletrar seu próprio nome."
         },
         {
             "id": 10,
-            "categoria": "Pronúncia e prosódia",
-            "tema": "Entonação enunciativa",
-            "explicacion": "Quando você afirma algo com certeza, o tom da sua voz deve baixar um pouco ao chegar no final da frase.",
+            "categoria": "Ortografia",
+            "tema": "O alfabeto",
+            "explicacion": "É o conjunto de letras que usamos para formar palavras e que nos permite soletrar nomes próprios de forma correta.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Tenho a <strong>informação</strong>.",
-                    "Minha irmã é <strong>médica</strong>.",
-                    "Moro em <strong>Madri</strong>.",
-                    "O livro é <strong>azul</strong>."
+                    "Escreve-se com <strong>eme</strong>.",
+                    "Seu nome tem um <strong>agá</strong>.",
+                    "Elena começa com a letra <strong>e</strong>.",
+                    "Meu nome tem a letra <strong>tê</strong>."
                 ]
             },
-            "consejo": "Baixe o tom no final para indicar que você terminou de falar."
+            "consejo": "As vogais em espanhol sempre soam igual."
         },
         {
             "id": 11,
             "categoria": "Ortografia",
-            "tema": "Ponto",
-            "explicacion": "Este sinal gráfico é necessário para separar frases e marcar o final de uma ideia completa dentro de um texto.",
+            "tema": "Letras maiúsculas",
+            "explicacion": "São letras maiores que são colocadas no início dos nomes próprios para indicar que são nomes de pessoas.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "É a Lucía<strong>.</strong>",
-                    "Ela é de Madri<strong>.</strong>",
-                    "Meu gato é preto<strong>.</strong> Eu sou alto.",
-                    "Hoje é segunda-feira<strong>.</strong>"
+                    "O nome é <strong>M</strong>ateo.",
+                    "Minha amiga é a <strong>E</strong>lena.",
+                    "Eu me chamo <strong>L</strong>ucía.",
+                    "Hoje é <strong>S</strong>egunda-feira."
                 ]
             },
-            "consejo": "Lembre-se de escrever sempre uma letra maiúscula depois de um ponto."
+            "consejo": "Use maiúsculas apenas quando for necessário."
+        }
+    ],
+    "dialogo": [
+        {
+            "personaje": "Mateo",
+            "texto": "Olá! Bom dia."
         },
         {
-            "id": 12,
-            "categoria": "Táticas e estratégias pragmáticas",
-            "tema": "Atenuação",
-            "explicacion": "Utilizamos formas suaves e descrições indiretas para evitar ser muito direto ou acabar sendo um pouco inconveniente ao falar com os outros.",
-            "ejemplos": {
-                "formato": "lista",
-                "items": [
-                    "Ela tem <strong>estatura média</strong>.",
-                    "A prova está <strong>um pouco</strong> difícil.",
-                    "Não é muito <strong>caro</strong>.",
-                    "Juan é <strong>meio</strong> tímido."
-                ]
-            },
-            "consejo": "Usa \"un poco\" para suavizar adjetivos que parecen negativos."
+            "personaje": "Elena",
+            "texto": "Oi, bom dia. Tudo bem?"
         },
         {
-            "id": 13,
-            "categoria": "Táticas e estratégias pragmáticas",
-            "tema": "Pessoal",
-            "explicacion": "Para criar uma conexão emocional, devemos focar a nossa comunicação nas pessoas e nas suas relações humanas mais próximas.",
-            "ejemplos": {
-                "formato": "lista",
-                "items": [
-                    "Eles são muito <strong>bons amigos</strong>.",
-                    "<strong>Minha família</strong> mora em Valência.",
-                    "<strong>Seus colegas</strong> são muito gentis.",
-                    "<strong>Nós</strong> estamos muito felizes."
-                ]
-            },
-            "consejo": "Mencionar as pessoas ajuda a ter conversas mais interessantes."
+            "personaje": "Mateo",
+            "texto": "Muito bem, obrigado. E você?"
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Eu estou muito bem também."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Ah, eu sou o Mateo. Como você se chama?"
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Muito prazer, Mateo. Eu me chamo Elena."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "O prazer é meu, Elena."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Com licença, como se escreve seu nome?"
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "É fácil. Escreve-se com eme, á, tê, ê, ó. Mateo."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Ah! M-A-T-E-O. Entendi."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Sim, exato. E o seu nome? É com \"agá\"?"
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Não, Elena é com ê, ele, ê, ene, á. Sem agá."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Elena, um nome muito bonito."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Obrigada. Ei, você é o aluno novo de espanhol?"
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Sim, eu sou o novo. É meu primeiro dia."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Que legal! Eu também estou na aula de nível A1."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Perfeito! Então somos colegas."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Sim. Olha, ali está o professor."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "É verdade. Bom, prazer em conhecer você."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Igualmente, Mateo. Vamos entrar, tá bom?"
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Sim, claro. Até logo."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Até mais."
         }
     ]
 }

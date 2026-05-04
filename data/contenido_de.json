@@ -1,220 +1,286 @@
 {
     "meta": {
-        "titulo_pagina": "A1-Leitfaden: Personen auf Spanisch beschreiben",
-        "titulo_hero": "Lerne, wie man Personen beschreibt",
-        "objetivo": "Äußerliche Merkmale identifizieren, Adjektive verwenden und Informationen bestätigen.",
-        "video_label": "Video: Das Blind Date",
-        "video_url": "https://espanolparatodoschannel.github.io/ni.2_El_Mercado_de_los_Recuerdos_Olvidados/",
-        "ilustracion": "ele_a1_people_illustration_1777403668192.png"
+        "titulo_pagina": "A1 Leitfaden: Erste Kontakte und Vorstellungen",
+        "titulo_hero": "Lerne, dich auf Spanisch vorzustellen!",
+        "objetivo": "Du lernst, wie du dich begrüßt, dich vorstellst und deinen Namen in Alltagssituationen richtig buchstabierst.",
+        "video_label": "Video: Der erste Schultag",
+        "video_url": "https://youtu.be/rzruErCtThA?si=Y6LjAspRzHR5-9A3",
+        "audio_dialogo": "assets/audio/dialogo_completo.mp3"
     },
     "fichas": [
         {
             "id": 1,
             "categoria": "Funktionen",
-            "tema": "Jemanden ansprechen",
-            "explicacion": "Diese Ausdrücke helfen dir, die Aufmerksamkeit einer anderen Person ganz natürlich mit ihrem Vornamen zu bekommen.",
+            "tema": "Begrüßen",
+            "explicacion": "Diese Ausdrücke helfen dir, einen freundlichen Kontakt zu anderen Menschen zu verschiedenen Tages- oder Nachtzeiten zu beginnen.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Hallo, <strong>Elena</strong>!",
-                    "Entschuldige, <strong>Juan</strong>, hast du kurz Zeit?",
-                    "Hör mal, <strong>Pablo</strong>, schau dir das mal an.",
-                    "Guten Morgen, <strong>Frau García</strong>."
+                    "¡<strong>Hallo</strong>! Wie geht es dir heute?",
+                    "¡<strong>Guten Morgen</strong>! Wie läuft's?",
+                    "¡<strong>Guten Tag</strong>! Wie geht alles?",
+                    "<strong>Hallo</strong>, was ist los, Kumpel?"
                 ]
             },
-            "consejo": "Benutze den Namen der Person, um freundlicher zu wirken."
+            "consejo": "Benutze \"Hola\" zu jeder Tageszeit."
         },
         {
             "id": 2,
             "categoria": "Funktionen",
-            "tema": "Jemanden vorstellen",
-            "explicacion": "Nutze diese einfachen Sätze, um deinen Freunden oder Arbeitskollegen jemanden Neues vorzustellen.",
+            "tema": "Auf eine Begrüßung antworten",
+            "explicacion": "Wir benutzen diese einfachen Sätze, um zu reagieren, wenn uns jemand begrüßt und wir das Gespräch höflich fortführen wollen.",
             "ejemplos": {
-                "formato": "lista",
+                "formato": "dialogo",
                 "items": [
-                    "Ich <strong>stelle</strong> dir meine Freundin Lucía <strong>vor</strong>.",
-                    "Das <strong>ist</strong> mein Bruder Carlos.",
-                    "Ich <strong>stelle</strong> dir meinen Lehrer <strong>vor</strong>.",
-                    "Das <strong>ist</strong> meine Kollegin María."
+                    {
+                        "pregunta": "Hallo! Wie geht's?",
+                        "respuesta": "Hallo, <strong>gut</strong>, und dir?"
+                    },
+                    {
+                        "pregunta": "Guten Morgen.",
+                        "respuesta": "<strong>Guten Morgen</strong>. Alles bestens."
+                    }
                 ]
             },
-            "consejo": "Benutze \"te presento\" in Situationen mit Freunden und der Familie."
+            "consejo": "Stell die Gegenfrage mit einem \"¿Y tú?\"."
         },
         {
             "id": 3,
             "categoria": "Funktionen",
-            "tema": "Auf eine Vorstellung reagieren",
-            "explicacion": "Das sind sehr wichtige Höflichkeitsfloskeln, die du direkt sagen solltest, wenn du jemanden zum ersten Mal triffst.",
+            "tema": "Sich identifizieren",
+            "explicacion": "Wir benutzen diese Grundstrukturen, um zu sagen, wer wir sind, oder um unseren Namen bei Personen anzugeben, die uns noch nicht kennen.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Sehr <strong>erfreut</strong>!",
-                    "Es <strong>freut</strong> mich, dich kennenzulernen.",
-                    "Es ist mir ein <strong>Vergnügen</strong>.",
-                    "Ganz meinerseits, vielen <strong>Dank</strong>."
+                    "Ich <strong>bin</strong> Mateo.",
+                    "Mein Name <strong>ist</strong> Elena.",
+                    "Er <strong>ist</strong> der Lehrer.",
+                    "Wir <strong>sind</strong> die Neuen."
                 ]
             },
-            "consejo": "“Encantado” ist für Männer und “Encantada” für Frauen."
+            "consejo": "Benutze das Verb \"ser\", um dich zu identifizieren."
         },
         {
             "id": 4,
-            "categoria": "Grammatik",
-            "tema": "Der bestimmte Artikel",
-            "explicacion": "Wir setzen diese kleinen Wörter vor die Nomen, wenn wir über Dinge oder Personen sprechen, die wir schon gut kennen.",
+            "categoria": "Funktionen",
+            "tema": "Jemanden ansprechen",
+            "explicacion": "Diese kurzen Wörter helfen dabei, die Aufmerksamkeit einer anderen Person zu bekommen, wenn wir direkt mit ihr sprechen wollen.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "<strong>Die</strong> Haare von Lucía sind lang.",
-                    "<strong>Das</strong> Haus von meinem Freund ist groß.",
-                    "<strong>Die</strong> Bücher liegen auf dem Tisch.",
-                    "<strong>Die</strong> Mädchen sind sehr sympathisch."
+                    "¡<strong>Sag mal</strong>! Bist du der Neue?",
+                    "<strong>Entschuldigung</strong>, wie heißt du?",
+                    "<strong>Schau mal</strong>, dort ist der Lehrer.",
+                    "<strong>Verzeihung</strong>, hast du einen Kugelschreiber?"
                 ]
             },
-            "consejo": "Der Artikel muss im Geschlecht und in der Anzahl genau zum Nomen passen."
+            "consejo": "Benutze \"Perdona\", um höflich zu unterbrechen."
         },
         {
             "id": 5,
-            "categoria": "Grammatik",
-            "tema": "Der unbestimmte Artikel",
-            "explicacion": "Diese Wörter dienen dazu, neue Informationen einzuführen oder ganz allgemein über eine Sache von vielen zu sprechen.",
+            "categoria": "Funktionen",
+            "tema": "Auf eine Vorstellung antworten",
+            "explicacion": "Das sind Höflichkeitsformeln, die wir sofort nach dem Kennenlernen einer neuen Person benutzen, um unsere Freude und Freundlichkeit zu zeigen.",
             "ejemplos": {
-                "formato": "lista",
+                "formato": "dialogo",
                 "items": [
-                    "Er ist <strong>ein</strong> sehr großer Junge.",
-                    "Sie hat <strong>eine</strong> spanische Freundin.",
-                    "Ich habe <strong>ein paar</strong> Bücher bei mir zu Hause.",
-                    "Da liegen <strong>einige</strong> Fotos auf dem Tisch."
+                    {
+                        "pregunta": "Ich bin Mateo.",
+                        "respuesta": "¡<strong>Sehr erfreut</strong>, Mateo!"
+                    },
+                    {
+                        "pregunta": "Ich heiße Elena.",
+                        "respuesta": "<strong>Schön, dich kennenzulernen</strong>."
+                    }
                 ]
             },
-            "consejo": "Benutze \"un\" für männliche und \"una\" für weibliche Wörter im Singular."
+            "consejo": "\"Encantado\" ändert sich zu \"Encantada\", wenn du eine Frau bist."
         },
         {
             "id": 6,
             "categoria": "Grammatik",
-            "tema": "Übereinstimmung (Konkordanz)",
-            "explicacion": "Im Spanischen müssen das Geschlecht und die Anzahl der Wörter innerhalb eines Satzes immer gleich sein.",
+            "tema": "Eigennamen",
+            "explicacion": "Das sind die besonderen Wörter, die wir benutzen, um Personen zu rufen, sie von anderen zu unterscheiden und ihnen eine einzigartige Identität zu geben.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Sie ist <strong>dunkelhaarig</strong>.",
-                    "Sie sind <strong>groß</strong>.",
-                    "Die Häuser sind <strong>weiß</strong>.",
-                    "Der Junge ist <strong>sympathisch</strong>."
+                    "Ich heiße <strong>Elena</strong>.",
+                    "Mein Kollege ist <strong>Mateo</strong>.",
+                    "Sie heißt <strong>Lucía</strong>.",
+                    "Ist dein Name <strong>Pablo</strong>?"
                 ]
             },
-            "consejo": "Wenn das Nomen weiblich ist, endet das Adjektiv meistens auch auf -a."
+            "consejo": "Namen werden im Spanischen immer großgeschrieben."
         },
         {
             "id": 7,
-            "categoria": "Allgemeine Begriffe",
-            "tema": "Existenz",
-            "explicacion": "Wir benutzen diese Verbform, um auszudrücken, dass ein Gegenstand oder eine Person gerade an einem bestimmten Ort anwesend ist.",
+            "categoria": "Grammatik",
+            "tema": "Subjektpronomen",
+            "explicacion": "Das sind kurze Begriffe, die dazu dienen, anzugeben, wer die Handlung ausführt oder wer in einem sehr einfachen Satz spricht.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Hier <strong>gibt es</strong> ein Foto von meinem Freund.",
-                    "In meiner Klasse <strong>sind</strong> zehn Schüler.",
-                    "<strong>Gibt es</strong> hier in der Nähe eine Toilette?",
-                    "Auf dem Tisch <strong>liegt</strong> ein Stift."
+                    "<strong>Ich</strong> bin der Student.",
+                    "Und wie geht es <strong>dir</strong>?",
+                    "<strong>Wir</strong> sind jetzt Klassenkameraden.",
+                    "<strong>Sie</strong> ist sehr sympathisch."
                 ]
             },
-            "consejo": "Das Wort \"hay\" ändert sich nie, es wird immer gleich geschrieben."
+            "consejo": "Manchmal ist es nicht notwendig, das Pronomen zu benutzen."
         },
         {
             "id": 8,
-            "categoria": "Spezifische Begriffe",
-            "tema": "Nationalität",
-            "explicacion": "Benutze diese Wörter nach dem Verb \"ser\", um zu erklären, aus welchem Land oder von welchem Ort der Welt du kommst.",
+            "categoria": "Grammatik",
+            "tema": "Präsens",
+            "explicacion": "Diese grundlegende Zeitform dient dazu, Handlungen zu kommunizieren, die im aktuellen Moment passieren, oder um gegenwärtige persönliche Zustände zu beschreiben.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Er ist <strong>Spanier</strong>.",
-                    "Wir sind <strong>Mexikaner</strong>.",
-                    "Sie ist <strong>Französin</strong>.",
-                    "Ich bin <strong>Italiener</strong>."
+                    "Mir <strong>geht</strong> es sehr gut.",
+                    "Wir <strong>sind</strong> heute Klassenkameraden.",
+                    "Elena <strong>ist</strong> im Unterricht.",
+                    "<strong>Bist</strong> du der Neue?"
                 ]
             },
-            "consejo": "Nationalitäten werden im Spanischen kleingeschrieben."
+            "consejo": "Beherrsche zuerst die Verben \"ser\" und \"estar\"."
         },
         {
             "id": 9,
-            "categoria": "Aussprache und Prosodie",
-            "tema": "Segmentierung",
-            "explicacion": "Es ist total wichtig, Wortgruppen durch kleine Pausen zu trennen, damit die anderen deine Nachricht besser verstehen können.",
+            "categoria": "Spezifische Begriffe",
+            "tema": "Name",
+            "explicacion": "Das bezieht sich auf den Wortschatz rund um unsere offizielle Identität und wie uns die Leute in unserem täglichen sozialen Umfeld nennen.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Nein, Elena. <strong>[Pause]</strong> Sie ist mittelgroß.",
-                    "Ja, <strong>[Pause]</strong> ich komme aus Spanien.",
-                    "Hallo, <strong>[Pause]</strong> ich heiße Pedro.",
-                    "Mein Freund ist groß, <strong>[Pause]</strong> blond und sympathisch."
+                    "Wie schreibt man deinen <strong>Namen</strong>?",
+                    "Mein <strong>Nachname</strong> ist García.",
+                    "Was ist dein <strong>Vorname</strong>?",
+                    "Der <strong>Name</strong> ist sehr schön."
                 ]
             },
-            "consejo": "Atme bei jedem Komma kurz durch, um natürlicher zu klingen."
+            "consejo": "Übe, deinen eigenen Namen zu buchstabieren."
         },
         {
             "id": 10,
-            "categoria": "Aussprache und Prosodie",
-            "tema": "Aussageintonation",
-            "explicacion": "Wenn du etwas sicher behauptest, sollte deine Stimme am Ende des Satzes ein bisschen nach unten gehen.",
+            "categoria": "Orthografie",
+            "tema": "Das Alphabet",
+            "explicacion": "Das ist die Gruppe von Buchstaben, die wir benutzen, um Wörter zu bilden, und die es uns ermöglicht, Eigennamen richtig zu buchstabieren.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Ich habe die <strong>Information</strong>.",
-                    "Meine Schwester ist <strong>Ärztin</strong>.",
-                    "Ich wohne in <strong>Madrid</strong>.",
-                    "Das Buch ist <strong>blau</strong>."
+                    "Man schreibt es mit <strong>M</strong>.",
+                    "Dein Name hat ein <strong>H</strong>.",
+                    "Elena beginnt mit einem <strong>E</strong>.",
+                    "Mein Name enthält ein <strong>T</strong>."
                 ]
             },
-            "consejo": "Senke die Stimme am Ende ab, um zu signalisieren, dass du fertig gesprochen hast."
+            "consejo": "Die Vokale klingen im Spanischen immer gleich."
         },
         {
             "id": 11,
-            "categoria": "Rechtschreibung",
-            "tema": "Punkt",
-            "explicacion": "Dieses Satzzeichen ist nötig, um Sätze zu trennen und das Ende eines kompletten Gedankens in einem Text zu markieren.",
+            "categoria": "Orthografie",
+            "tema": "Großbuchstaben",
+            "explicacion": "Das sind größere Buchstaben, die am Anfang von Eigennamen stehen, um zu zeigen, dass es sich um Namen von Personen handelt.",
             "ejemplos": {
                 "formato": "lista",
                 "items": [
-                    "Das ist Lucía<strong>.</strong>",
-                    "Sie kommt aus Madrid<strong>.</strong>",
-                    "Meine Katze ist schwarz<strong>.</strong> Ich bin groß.",
-                    "Heute ist Montag<strong>.</strong>"
+                    "Der Name ist <strong>M</strong>ateo.",
+                    "Meine Freundin ist <strong>E</strong>lena.",
+                    "Ich heiße <strong>L</strong>ucía.",
+                    "Heute ist <strong>M</strong>ontag."
                 ]
             },
-            "consejo": "Denk daran, nach einem Punkt immer groß weiterzuschreiben."
+            "consejo": "Benutze Großbuchstaben nur, wenn es notwendig ist."
+        }
+    ],
+    "dialogo": [
+        {
+            "personaje": "Mateo",
+            "texto": "Hallo! Guten Morgen."
         },
         {
-            "id": 12,
-            "categoria": "Taktiken und pragmatische Strategien",
-            "tema": "Abschwächung",
-            "explicacion": "Wir benutzen sanftere Formen und indirekte Beschreibungen, um nicht zu direkt zu sein oder unhöflich zu wirken, wenn wir mit anderen sprechen.",
-            "ejemplos": {
-                "formato": "lista",
-                "items": [
-                    "Sie ist <strong>mittelgroß</strong>.",
-                    "Die Prüfung ist <strong>ein bisschen</strong> schwer.",
-                    "Es ist nicht besonders <strong>teuer</strong>.",
-                    "Juan ist <strong>etwas</strong> schüchtern."
-                ]
-            },
-            "consejo": "Benutze \"un poco\", um Adjektive abzumildern, die negativ wirken könnten."
+            "personaje": "Elena",
+            "texto": "Hallo, guten Morgen. Wie geht es dir?"
         },
         {
-            "id": 13,
-            "categoria": "Taktiken und pragmatische Strategien",
-            "tema": "Persönlicher Bezug",
-            "explicacion": "Um eine emotionale Verbindung aufzubauen, sollten wir unsere Kommunikation auf die Personen und ihre engsten menschlichen Beziehungen konzentrieren.",
-            "ejemplos": {
-                "formato": "lista",
-                "items": [
-                    "Sie sind sehr <strong>gute Freunde</strong>.",
-                    "<strong>Meine Familie</strong> wohnt in Valencia.",
-                    "<strong>Deine Kollegen</strong> sind sehr nett.",
-                    "<strong>Wir</strong> sind sehr glücklich."
-                ]
-            },
-            "consejo": "Über Menschen zu sprechen hilft dabei, interessantere Gespräche zu führen."
+            "personaje": "Mateo",
+            "texto": "Sehr gut, danke. Und dir?"
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Mir geht es auch sehr gut."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Ah, ich bin Mateo. Wie heißt du?"
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Sehr erfreut, Mateo. Ich heiße Elena."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Ganz meinerseits, Elena."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Entschuldige, wie schreibt man deinen Namen?"
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Das ist einfach. Man schreibt ihn mit M, A, T, E, O. Mateo."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Ah! M-A-T-E-O. Ich verstehe."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Ja, genau. Und dein Name? Ist er mit \"H\"?"
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Nein, Elena schreibt man mit E, L, E, N, A. Ohne H."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Elena, ein sehr schöner Name."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Danke. Sag mal, bist du der neue Spanischschüler?"
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Ja, ich bin der Neue. Es ist mein erster Tag."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Wie schön! Ich bin auch in der Klasse für das Niveau A1."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Perfekt! Dann sind wir Klassenkameraden."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Ja. Schau mal, dort ist der Lehrer."
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Das stimmt. Also, schön dich kennenzulernen."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Gleichfalls, Mateo. Wir gehen rein, okay?"
+        },
+        {
+            "personaje": "Mateo",
+            "texto": "Ja, klar. Bis gleich."
+        },
+        {
+            "personaje": "Elena",
+            "texto": "Bis später."
         }
     ]
 }

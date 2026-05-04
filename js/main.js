@@ -59,11 +59,11 @@ let currentLang = 'es';
 // Etiquetas de UI por idioma
 // =============================================
 const LABELS = {
-    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1', touch_hint: 'Selecciona un idioma y toca el texto para traducir' },
-    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1', touch_hint: 'Select a language and touch the text to translate' },
-    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', exemple_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1', touch_hint: 'Choisis une langue et touche le texte pour traduire' },
-    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1', touch_hint: 'Escolha um idioma e toque no texto para traduzir' },
-    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1', touch_hint: 'Sprache wählen und Text antippen zum Übersetzen' }
+    es: { vocabulario: 'Vocabulario útil:', consejo_a1: 'Consejo para A1:',   ejemplo_completo: 'Ejemplo completo:',  progreso: 'fichas', loading: 'Cargando traducción…', nivel: 'Nivel A1', touch_hint: 'Selecciona un idioma y toca el texto para traducir', audio_dialogo: 'Escucha el diálogo completo', titulo_dialogo: 'Práctica de Lectura', footer_slogan: 'Aprende español de forma natural y progresiva.', footer_button: 'Visita nuestro canal' },
+    en: { vocabulario: 'Useful vocabulary:', consejo_a1: 'Tip for A1:',        ejemplo_completo: 'Full example:',       progreso: 'cards',  loading: 'Loading translation…', nivel: 'Level A1', touch_hint: 'Select a language and touch the text to translate', audio_dialogo: 'Listen to the full dialogue', titulo_dialogo: 'Reading Practice', footer_slogan: 'Learn Spanish naturally and progressively.', footer_button: 'Visit our channel' },
+    fr: { vocabulario: 'Vocabulaire utile :', consejo_a1: 'Conseil pour A1 :', exemple_completo: 'Exemple complet :',  progreso: 'fiches', loading: 'Chargement de la traduction…', nivel: 'Niveau A1', touch_hint: 'Choisis une langue et touche le texte pour traduire', audio_dialogo: 'Écoute le dialogue complet', titulo_dialogo: 'Pratique de lecture', footer_slogan: 'Apprenez l\'espagnol de manière naturelle et progressive.', footer_button: 'Visitez notre chaîne' },
+    pt: { vocabulario: 'Vocabulário útil:', consejo_a1: 'Conselho para A1:',   ejemplo_completo: 'Exemplo completo:',  progreso: 'fichas', loading: 'Carregando tradução…', nivel: 'Nível A1', touch_hint: 'Escolha um idioma e toque no texto para traduzir', audio_dialogo: 'Ouça o diálogo completo', titulo_dialogo: 'Prática de Leitura', footer_slogan: 'Aprenda espanhol de forma natural e progressiva.', footer_button: 'Visite nosso canal' },
+    de: { vocabulario: 'Nützliches Vokabular:', consejo_a1: 'Tipp für A1:',    ejemplo_completo: 'Vollständiges Beispiel:', progreso: 'Karten', loading: 'Übersetzung wird geladen…', nivel: 'Niveau A1', touch_hint: 'Sprache wählen und Text antippen zum Übersetzen', audio_dialogo: 'Hör den ganzen Dialog', titulo_dialogo: 'Lesepraxis', footer_slogan: 'Lerne Spanisch auf natürliche und progressive Weise.', footer_button: 'Besuche unseren Kanal' }
 };
 
 // Banderas CDN para cada idioma del hint
@@ -382,6 +382,81 @@ function animarFichas() {
         card.style.display = 'flex';
         setTimeout(() => card.classList.add('visible'), index * 120);
     });
+
+    // Animar la sección de diálogo si existe
+    const diagSection = document.getElementById('dialogoSection');
+    if (diagSection && !diagSection.classList.contains('hidden')) {
+        setTimeout(() => {
+            diagSection.classList.add('visible');
+            diagSection.style.opacity = '1';
+            diagSection.style.transform = 'translateY(0)';
+        }, cards.length * 120 + 200);
+    }
+}
+
+// =============================================
+// Construir Sección de Diálogo
+// =============================================
+function buildDialogo(dialogo, meta, dialogoTrans) {
+    if (!dialogo || !dialogo.length) return '';
+
+    const labels = LABELS[currentLang] || LABELS.es;
+    const tituloDialogo = labels.titulo_dialogo;
+
+    const audioHtml = meta.audio_dialogo ? `
+        <div class="flex flex-col items-center mb-10 p-6 bg-white/20 dark:bg-black/20 rounded-3xl border border-white/20">
+            <p class="text-sm font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 mb-4 flex items-center gap-2">
+                <i class="fas fa-headphones" aria-hidden="true"></i>
+                ${labels.audio_dialogo}
+            </p>
+            <div class="custom-audio-wrapper w-full max-w-md bg-white/30 dark:bg-slate-800/50 rounded-2xl p-3 flex items-center gap-4 shadow-inner border border-white/20">
+                <button class="audio-play-btn w-12 h-12 rounded-full bg-indigo-600 text-white flex items-center justify-center flex-shrink-0 hover:bg-indigo-700 transition shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900" aria-label="Reproducir audio">
+                    <i class="fas fa-play ml-1 text-lg" aria-hidden="true"></i>
+                </button>
+                <div class="flex-1 flex flex-col justify-center">
+                    <input type="range" class="audio-progress w-full h-2 bg-slate-300 dark:bg-slate-700 rounded-full appearance-none cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400" value="0" min="0" max="100" step="0.1" aria-label="Progreso del audio">
+                    <div class="flex justify-between text-[11px] text-slate-600 dark:text-slate-400 mt-2 font-semibold px-1 tracking-wide">
+                        <span class="audio-time-current">0:00</span>
+                        <span class="audio-time-total">0:00</span>
+                    </div>
+                </div>
+                <audio class="hidden-audio" preload="metadata">
+                    <source src="${meta.audio_dialogo}" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>` : '';
+
+    const scriptHtml = dialogo.map((line, idx) => {
+        const transLine = dialogoTrans ? dialogoTrans[idx] : null;
+        // Alternar alineación para efecto chat (opcional, por ahora lineal pero estilizado)
+        return `
+            <div class="flex gap-4 mb-4 items-start">
+                <div class="flex-shrink-0 w-24 text-right pt-1">
+                    <span class="text-xs font-black uppercase tracking-tighter text-indigo-500/70 dark:text-indigo-400/70">${line.personaje}</span>
+                </div>
+                <div class="flex-1 bg-white/40 dark:bg-white/5 p-4 rounded-2xl rounded-tl-none border border-white/20 shadow-sm relative group">
+                    <div class="text-slate-800 dark:text-slate-100 leading-relaxed">
+                        ${renderTexto(line.texto, transLine ? transLine.texto : null, true)}
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    return `
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-black text-center mb-2 bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent">
+                ${tituloDialogo}
+            </h2>
+            <div class="w-20 h-1.5 bg-gradient-to-r from-indigo-500 to-emerald-500 mx-auto rounded-full mb-10"></div>
+            
+            ${audioHtml}
+            
+            <div class="space-y-2">
+                ${scriptHtml}
+            </div>
+        </div>
+    `;
 }
 
 // =============================================
@@ -405,7 +480,7 @@ function renderAll() {
 
     // Hero
     document.getElementById('hero-title').innerHTML = renderTexto(
-        meta.titulo_hero.replace(' a las', '<br><span class="text-indigo-200"> a las</span>'),
+        meta.titulo_hero,
         metaTrans ? metaTrans.titulo_hero : null,
         false
     );
@@ -421,10 +496,28 @@ function renderAll() {
         meta.video_label, metaTrans ? metaTrans.video_label : null, true
     );
 
+    const videoLink = document.getElementById('video-link');
+    if (meta.video_url) {
+        videoLink.href = meta.video_url;
+        videoLink.style.display = '';
+    } else {
+        videoLink.style.display = 'none';
+    }
+
     // Footer: sincronizado con JSON (no más texto hardcodeado en HTML)
     const footerTitulo = document.getElementById('footer-titulo');
+    const footerSlogan = document.getElementById('footer-slogan');
+    const footerBtnText = document.getElementById('footer-btn-text');
+    const labels = LABELS[currentLang] || LABELS.es;
+
     if (footerTitulo) {
         footerTitulo.textContent = meta.titulo_pagina || '';
+    }
+    if (footerSlogan) {
+        footerSlogan.textContent = labels.footer_slogan;
+    }
+    if (footerBtnText) {
+        footerBtnText.textContent = labels.footer_button;
     }
 
     // Renderizar fichas
@@ -434,9 +527,24 @@ function renderAll() {
         buildFicha(f, i, fichasTrans ? fichasTrans[i] : null)
     ).join('') + (resumen ? buildResumen(resumen, resumenTrans) : '');
 
+    // Renderizar diálogo
+    const diagSection = document.getElementById('dialogoSection');
+    if (diagSection) {
+        const dialogo      = baseData.dialogo;
+        const dialogoTrans = transData ? transData.dialogo : null;
+        
+        if (dialogo && dialogo.length > 0) {
+            diagSection.innerHTML = buildDialogo(dialogo, meta, dialogoTrans);
+            diagSection.classList.remove('hidden');
+        } else {
+            diagSection.classList.add('hidden');
+        }
+    }
+
     animarFichas();
     updateProgress(fichas.length + (resumen ? 1 : 0));
     updateTouchHint();
+    setupCustomAudio(); // Iniciar eventos del reproductor de audio
 
     // Actualizar aria-pressed de los botones de idioma
     document.querySelectorAll('.lang-btn').forEach(b => {
@@ -453,7 +561,6 @@ async function init() {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         baseData = await res.json();
 
-        document.getElementById('video-link').href = baseData.meta.video_url;
         renderAll();
         setupLanguageSelector();
 
@@ -530,34 +637,76 @@ function setupScrollButton() {
 // Delegación de eventos para botones de audio
 // =============================================
 function setupSpeakButtons() {
-    document.getElementById('fichasGrid').addEventListener('click', (e) => {
+    // Delegación en el body para cubrir fichas y diálogo
+    document.body.addEventListener('click', (e) => {
         const btn = e.target.closest('.speak-btn');
         if (!btn) return;
         speakText(btn.dataset.tts, btn);
     });
 }
 
-// =============================================
-// Lógica Modo Noche (Dark Mode)
-// =============================================
-function setupThemeToggle() {
-    const btn = document.getElementById('themeToggleBtn');
-    const icon = document.getElementById('themeIcon');
-    if (!btn || !icon) return;
 
-    // Verificar preferencia guardada
-    const currentTheme = localStorage.getItem('theme') || 'light';
-    if (currentTheme === 'dark') {
-        document.documentElement.classList.add('dark');
-        icon.classList.replace('fa-moon', 'fa-sun');
-    }
 
-    btn.addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark');
-        const isDark = document.documentElement.classList.contains('dark');
-        
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+// =============================================
+// Lógica del Reproductor de Audio Personalizado
+// =============================================
+function setupCustomAudio() {
+    const wrappers = document.querySelectorAll('.custom-audio-wrapper');
+    wrappers.forEach(wrapper => {
+        const audio = wrapper.querySelector('.hidden-audio');
+        const playBtn = wrapper.querySelector('.audio-play-btn');
+        const playIcon = playBtn.querySelector('i');
+        const progress = wrapper.querySelector('.audio-progress');
+        const currentTimeEl = wrapper.querySelector('.audio-time-current');
+        const totalTimeEl = wrapper.querySelector('.audio-time-total');
+
+        if (!audio || !playBtn) return;
+
+        const formatTime = (time) => {
+            if (isNaN(time)) return "0:00";
+            const min = Math.floor(time / 60);
+            const sec = Math.floor(time % 60);
+            return `${min}:${sec.toString().padStart(2, '0')}`;
+        };
+
+        // Si el audio ya tiene la metadata cargada
+        if (audio.readyState >= 1) {
+            totalTimeEl.textContent = formatTime(audio.duration);
+        } else {
+            audio.addEventListener('loadedmetadata', () => {
+                totalTimeEl.textContent = formatTime(audio.duration);
+            });
+        }
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playIcon.classList.remove('fa-play', 'ml-1');
+                playIcon.classList.add('fa-pause');
+            } else {
+                audio.pause();
+                playIcon.classList.remove('fa-pause');
+                playIcon.classList.add('fa-play', 'ml-1');
+            }
+        });
+
+        audio.addEventListener('timeupdate', () => {
+            const percent = (audio.currentTime / audio.duration) * 100;
+            progress.value = percent || 0;
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+        });
+
+        progress.addEventListener('input', (e) => {
+            const seekTime = (e.target.value / 100) * audio.duration;
+            audio.currentTime = seekTime;
+        });
+
+        audio.addEventListener('ended', () => {
+            playIcon.classList.remove('fa-pause');
+            playIcon.classList.add('fa-play', 'ml-1');
+            progress.value = 0;
+            currentTimeEl.textContent = "0:00";
+        });
     });
 }
 
@@ -565,7 +714,6 @@ function setupThemeToggle() {
 // Arrancar — todo dentro de DOMContentLoaded
 // =============================================
 window.addEventListener('DOMContentLoaded', () => {
-    setupThemeToggle();
     setupScrollButton();
     initTTS();
     init().then(() => setupSpeakButtons());

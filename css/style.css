@@ -20,10 +20,16 @@
 /* =============================================
    ESTILOS BASE
    ============================================= */
+html {
+    overflow-x: hidden;
+    overflow-y: scroll; /* Fuerza la barra de scroll en escritorio */
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--bg-page);
     overflow-x: hidden;
+    overflow-y: auto;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -149,18 +155,6 @@ body {
 #scrollTopBtn:focus-visible {
     outline: 3px solid white;
     outline-offset: 3px;
-}
-
-/* =============================================
-   ANIMACIÓN FLOTANTE
-   ============================================= */
-.hero-img-container {
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50%       { transform: translateY(-15px); }
 }
 
 /* =============================================
@@ -448,4 +442,38 @@ body {
 @keyframes pulse-speak {
     0%, 100% { transform: scale(1); }
     50%       { transform: scale(1.25); }
+}
+
+/* =============================================
+   REPRODUCTOR DE AUDIO PERSONALIZADO
+   ============================================= */
+.audio-progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    transition: transform 0.1s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.audio-progress::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.audio-progress::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    border: none;
+    transition: transform 0.1s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.audio-progress::-moz-range-thumb:hover {
+    transform: scale(1.2);
 }
