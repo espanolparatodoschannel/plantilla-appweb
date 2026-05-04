@@ -404,7 +404,7 @@ function buildDialogo(dialogo, meta, dialogoTrans) {
     const tituloDialogo = labels.titulo_dialogo;
 
     const audioHtml = meta.audio_dialogo ? `
-        <div class="flex flex-col items-center mb-10 p-6 bg-white/20 dark:bg-black/20 rounded-3xl border border-white/20">
+        <div class="sticky top-4 z-40 flex flex-col items-center mb-10 p-6 bg-white/40 dark:bg-slate-900/60 backdrop-blur-xl rounded-3xl border border-white/30 dark:border-white/10 shadow-2xl">
             <p class="text-sm font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 mb-4 flex items-center gap-2">
                 <i class="fas fa-headphones" aria-hidden="true"></i>
                 ${labels.audio_dialogo}
