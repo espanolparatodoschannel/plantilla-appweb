@@ -269,10 +269,10 @@ function buildFicha(ficha, index, fichaTrans) {
                 ${renderEjemplos(ficha.ejemplos, cfg, fichaTrans ? fichaTrans.ejemplos : null)}
                 ${vocabularioHtml}
                 <div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-700/50">
-                    <p class="text-sm text-indigo-500 dark:text-indigo-400 font-semibold">
-                        <i class="fas fa-lightbulb text-amber-500 mr-1" aria-hidden="true"></i>
-                        ${renderTexto(ficha.consejo, fichaTrans ? fichaTrans.consejo : null, true)}
-                    </p>
+                    <div class="flex items-start gap-2 text-sm text-indigo-500 dark:text-indigo-400 font-semibold">
+                        <i class="fas fa-lightbulb text-amber-500 mt-0.5 flex-shrink-0" aria-hidden="true"></i>
+                        <span class="flex-1">${renderTexto(ficha.consejo, fichaTrans ? fichaTrans.consejo : null, true)}</span>
+                    </div>
                 </div>
             </div>
         </section>`;
