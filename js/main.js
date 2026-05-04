@@ -430,12 +430,12 @@ function buildDialogo(dialogo, meta, dialogoTrans) {
         const transLine = dialogoTrans ? dialogoTrans[idx] : null;
         // Alternar alineación para efecto chat (opcional, por ahora lineal pero estilizado)
         return `
-            <div class="flex gap-4 mb-4 items-start">
-                <div class="flex-shrink-0 w-24 text-right pt-1">
-                    <span class="text-xs font-black uppercase tracking-tighter text-indigo-500/70 dark:text-indigo-400/70">${line.personaje}</span>
+            <div class="flex flex-col mb-4 items-start w-full">
+                <div class="mb-1 ml-4">
+                    <span class="text-xs font-black uppercase tracking-widest text-indigo-500/80 dark:text-indigo-400/80">${line.personaje}</span>
                 </div>
-                <div class="flex-1 bg-white/40 dark:bg-white/5 p-4 rounded-2xl rounded-tl-none border border-white/20 shadow-sm relative group">
-                    <div class="text-slate-800 dark:text-slate-100 leading-relaxed">
+                <div class="w-full bg-white/40 dark:bg-white/5 p-4 md:p-5 rounded-2xl rounded-tl-none border border-white/20 shadow-sm relative group">
+                    <div class="text-slate-800 dark:text-slate-100 leading-relaxed text-base md:text-lg">
                         ${renderTexto(line.texto, transLine ? transLine.texto : null, true)}
                     </div>
                 </div>
